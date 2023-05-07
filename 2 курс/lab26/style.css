@@ -1,0 +1,33 @@
+table, table td{
+	border: 1px solid #000;
+}
+/* Нечётные tr */
+tr:nth-child(odd){
+	font-style: italic;
+}
+/* Чётные tr */
+tr:nth-child(even){
+	background-color: #ccc;
+	color: #fff;
+}
+/* Каждый третий tr */
+tr:nth-child(3n){
+	text-shadow: 0 1px 2px #f00;
+}
+/* Каждый первый tr */
+tr:nth-child(1){
+	background-color: #FFE920;
+}
+/* Каждый третий со второго tr */
+tr:nth-child(3n+2){
+	letter-spacing: 1px;
+}
+/* Пустые td */
+td:empty{
+	background-color: #c22;
+}
+/* Обращение к html */
+:root{
+	background-color: #09b;
+	height: 100%;
+}

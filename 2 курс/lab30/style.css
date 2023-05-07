@@ -1,0 +1,54 @@
+body{
+	color: #171356;
+}
+header{
+	color: #fff;
+	background-color: #3889C8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	font-family: Arial;
+}
+footer{
+	color: #fff;
+	background-color: #3889C8;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	font-family: Arial;
+}
+/* полоса-фиксик */
+nav{
+	border-bottom: 2px solid #8181A2;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 80px;
+	background-color: #fff;
+}
+/* контент */
+div:nth-child(4){
+	border: 1px solid #000;
+	height: 300vh;
+	position: absolute;
+	left: 28%;
+	top: 120px;
+	right: 5%;
+	background-color: #ccc;
+	/* Можно ли? */
+	z-index: -100;
+	/* нет */
+}
+/* меню */
+div:first-of-type{
+	background-color: #AADAC2;
+	border: 1px solid #000;
+	position: fixed;
+	left: 0;
+	top: 30vh;
+	width: 20%;
+}

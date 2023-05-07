@@ -1,0 +1,37 @@
+div{
+	display: inline-block;
+}
+.block1{
+	width: 200px;
+	height: 200px;
+	background-color: #909;
+	margin: 100px;
+}
+#a1{
+	width: 150px;
+	height: 150px;
+	background-color: #f90;
+}
+.sun{
+	width: 150px;
+	height: 150px;
+	background-image: radial-gradient(at center, #ff0 0, #ff0 25%, rgba(0,0,0,0) 100%);
+	border-radius: 50%;
+	position: absolute;
+	top: 120vh;
+	left: 120vw;
+	animation: sun 7s ease-in-out infinite;
+}
+@keyframes sun{
+	0%{
+		top: 120vh;
+		left: 0;
+	}
+	50%{
+		top: 30vh;
+	}
+	100%{
+		top: 120vh;
+		left: 100vw;
+	}
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel='stylesheet' href='css/style.css'>
+	</head>
+	<body>
+		<h1>Анкета посетителя ресторана</h1>
+		<form name='odin' accept-charset="utf-8" enctype='application/x-www-form-urlencoded'><fieldset class='field1'><legend>Контактная информация</legend>
+<div>
+			<label for='input1'>Имя</label><input id='input1' type="text">
+</div>
+<div>
+<label for='input2'>Телефон</label><input id='input2' type="text">
+</div>
+<div>
+<label for='email1'>Email</label><input id='email1' type="email">
+</div>
+<div>
+<label for='date1'>Дата посещения</label><input id='date1' type="date">
+			</fieldset>
+			<fieldset class='field2'><legend>Персональная информация</legend>
+<div>
+				<label for='number1'>Возраст</label><input id='number1' type="number" min='1' max='100' step='1'>
+</div>
+<div>
+<label for='select1'>Любимая кухня</label><select name="fvrtKitchen" id=select1>
+							<option value="">Русская</option>
+							<option value="">Моя</option>
+							<option value="">Твоя</option>
+							<option value="">Наша</option>
+							<option value="">Общая</option>
+							<option value="">Мамина</option>
+</select>
+</div>
+<div>
+<label for="textarea1">Какие блюда Вы хотели бы увидеть в меню?</label><textarea id='textarea1'></textarea>
+				
+				
+			</fieldset>
+			<fieldset class='field3'><legend>Оценка нашего заведения</legend><p class='bold'>Почему Вы выбрали наше заведение?</p>
+				<div>
+				<input type="radio" id='radio1' name='whyChose'><label for="radio1">Недалеко от дома/работы</label>
+			</div>
+			<div>
+<input type="radio" id='radio2' name='whyChose'><label for="radio2">Увидел рекламу</label>
+			</div>
+			<div>
+<input type="radio" id='radio3' name='whyChose'><label for="radio3">Посоветовали</label>
+			</div>
+			<div>
+<input type="radio" id='radio4' name='whyChose'><label for="radio4">Оптимальное отношение цены и качества</label>
+			</div>
+				<p class='bold'>Вы будете рекомендовать наше заведение своим знакомым?</p>
+				<div>
+				<input type="radio" id='radio5' name='recommend'><label for="radio5">Да</label>
+			</div>
+			<div>
+<input type="radio" id='radio6' value='checked' name='recommend'><label for="radio6">Нет</label>
+			</div>
+			</fieldset>
+			<input type="submit" value="Отправить">
+		</form>
+	<hr>
+		<fieldset class='field4'>
+			<legend>Решение заданий</legend>
+			Количество форм на странице:
+			<kbd>alert(document.getElementsByTagName('form').length)</kbd>
+				<input id='button1' value='Кнопка 1' type="button" onclick="alert(document.getElementsByTagName('form').length)">
+				Имена форм:
+				<kbd>alert(document.getElementsByTagName('form')[0].name)</kbd>
+				<input id='button2' value='Кнопка 2' type="button" onclick="alert(document.getElementsByTagName('form')[0].name)">
+				Имя 1-ой формы:
+				<kbd>alert(document.getElementsByTagName('form')[0].name)</kbd>
+				<input id='button3' value='Кнопка 3' type="button" onclick="alert(document.getElementsByTagName('form')[0].name)">
+				Количество элементов в форме:
+				<kbd>alert(document.getElementsByTagName('form')[0].childNodes.length)</kbd>
+				<input id='button4' value='Кнопка 4' type="button" onclick="alert(document.getElementsByTagName('form')[0].childNodes.length)">
+				Количество input в форме:
+				<kbd>alert(document.getElementsByTagName('form')[0].querySelectorAll('input').length)</kbd>
+				<input id='button5' value='Кнопка 5' type="button" onclick="alert(document.getElementsByTagName('form')[0].querySelectorAll('input').length)">
+				Значение 1-го элемента формы(type):
+				<kbd>alert(document.getElementsByTagName('form')[0].querySelector('input').type)</kbd>
+				<input id='button6' value='Кнопка 6' type="button" onclick="alert(document.getElementsByTagName('form')[0].querySelector('input').type)">
+				Значение любого элемента с именем:
+				<kbd>alert(document.getElementsByTagName('form')[0].querySelector('input[name]').name)</kbd>
+				<input id='button7' value='Кнопка 7' type="button" onclick="alert(document.getElementsByTagName('form')[0].querySelector('input[name]').name)">
+				Проверка на наличие name в кнопке:
+				<kbd>alert(Boolean(this.name))</kbd>
+				<input type="button" id="button8" value="Кнопка 8" onclick="alert(Boolean(this.name))">
+
+<hr>
+<h2>Домашняя</h2>
+<kbd>
+console.log(document.getElementById('age-table'))
+</kbd>
+<kbd>
+console.log(document.getElementById('age-table').getElementsByTagName('label'))
+</kbd>
+<kbd>
+console.log(document.querySelector('td'))
+</kbd>
+<kbd>
+console.log(document.querySelector('form[name="search"]'))
+</kbd>
+<kbd>
+console.log(document.querySelector('form[name="search"]'))
+</kbd>
+<kbd>
+console.log(document.querySelectorAll('input')[document.querySelectorAll('input').length-1])
+</kbd>
+		</fieldset>
+		<script src='js/script1.js'></script>
+	</body>
+</html>

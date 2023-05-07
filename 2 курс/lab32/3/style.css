@@ -1,0 +1,63 @@
+body{
+	color: #07228F;
+}
+h1, h2, h3{
+	clear: both;
+	text-align: center;
+}
+.block_left{
+	float: left;
+}
+.green{
+	background-color: #AFD6D3;
+	width: 30%;
+}
+.pink{
+	background-color: #F3D9F7;
+	border: 1px dotted #000;
+}
+.clear_left{
+	clear: left;
+}
+.gray{
+	background-color: #ddd;
+	width: 30%;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0 2px 3px #aaa;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.floatbox{
+	background-color: #AFD6D3;
+	float: left;
+	width: 130px;
+	height: 150px;
+	margin-right: 20px;
+	padding: 0 20px;
+}
+.bolotniy{
+	background-color: #617D8B;
+	padding: 20px;
+}
+.bolotniy ul{
+	overflow: auto;
+}
+.bolotniy li{
+	list-style: none;
+	background-color: #fff;
+	border: 1px dotted #617D8B;
+	/* 4 метод */
+	float: left;
+	width: calc(100% / 3 - 20px);
+	height: 50px;
+	margin-right: 20px;
+}
+.bolotniy li:last-child{
+	margin-right: 0;
+}

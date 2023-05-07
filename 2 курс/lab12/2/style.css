@@ -1,0 +1,29 @@
+div{
+	border: 15px dashed #dbd100;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.second_block{
+	border-style: solid;
+}
+.third_block{
+	border-style: double;
+}
+.fourth_block{
+	border-style: ridge;
+}
+.fifth_block{
+	border-style: groove;
+}
+.sixth_block{
+	border-style: outset;
+}
+.seventh_block{
+	border-style: inset;
+}
+.eighth_block{
+	border-style: double dotted dashed solid;
+}
+.own_block{
+	border-style: outset groove ridge outset;
+}

@@ -1,0 +1,10 @@
+div{
+	border: 70px solid #96ce8a;
+	border-radius: 50%;
+	border-right-color: #cfe7bc;
+	background: #ebf5e4;
+	font-size: 110px;
+	padding: 100px 0px;
+	width: 300px;
+	text-align: center;
+}

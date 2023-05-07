@@ -1,0 +1,10 @@
+p{
+	color: #aaa;
+}
+input:in-range{
+	background-color: #C8FFC6;
+}
+input:out-of-range{
+	background-color: #D70A0A;
+	color: #eee;
+}

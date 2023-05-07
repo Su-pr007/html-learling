@@ -1,0 +1,15 @@
+button{
+	background-color: #8CC63E;
+	border: none;
+	padding: 10px;
+	position: relative;
+	right: 5px;
+	bottom: 5px;
+	box-shadow: 5px 5px 0 #000;
+	margin: 10px;
+}
+button:hover{
+	right: 0;
+	bottom: 0;
+	box-shadow: none;
+}

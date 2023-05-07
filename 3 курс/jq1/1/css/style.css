@@ -1,0 +1,16 @@
+div{
+	display: inline-block;
+	margin: 0 5px;
+}
+#kv1, #kv2, #kv3{
+	width: 100px;
+	height: 200px;
+	background-color: #f00;
+	display: none;
+	text-align: center;
+	color: #fff;
+	float: left;
+}
+.trans{
+	transition: 0.5s;
+}

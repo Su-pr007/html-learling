@@ -1,0 +1,5 @@
+@media print{
+	p::after{
+		content: ' SKRITIY TEXT V PRINTE'
+	}
+}

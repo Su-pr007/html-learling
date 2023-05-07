@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src='js/script.js'></script>
+</head>
+<body>
+	<h2>Пример 1</h2>
+	<form action="" name="my">
+		<input type="text" name="one" value="1">
+		<input type="text" name="two" value="2">
+	</form>
+	<kbd>
+let FORM = document.forms.my;
+let ELEM = FORM.elements.one;
+alert(ELEM.value);</kbd>
+	<button onclick='primer1()'>Пример 1</button>
+	<hr>
+	<h2>Пример 2</h2>
+	<form>
+		<input type="radio" name="age" value="10">фыв
+		<input type="radio" name="age" value="10">выф
+	</form>
+	<kbd>
+FORM = document.forms[1];
+AgeElems = FORM.elements.age;
+alert(AgeElems[0]);
+	</kbd>
+	<button onclick='primer2()'>Пример 2</button>
+	<hr>
+	<h2>Пример 3</h2>
+	<form id="FORMA">
+		<fieldset name="userFields">
+			<legend>info</legend>
+			<input type="text" name="login">
+		</fieldset>
+	</form>
+	<kbd>
+FIELDSET = FORMA.elements.userFields;
+alert(FIELDSET);
+alert(FIELDSET.elements.login);
+	</kbd>
+	<button onclick="primer3()">Пример 3</button>
+	<hr>
+	<h2>Пример 4</h2>
+	<form action="" id="FORMA2">
+		<input type="text" name="login">
+	</form>
+	<kbd>
+alert(FORMA2.elements.login == FORMA2.login);
+FORMA2.login.name = 'username';
+
+alert(FORMA2.elements.login);
+alert(FORMA2.elements.username);
+
+alert(FORMA2.username == FORMA2.login);
+	</kbd>
+	<button onclick="primer4()">Пример 4</button>
+	<hr>
+	<h2>Пример 5</h2>
+	<form action="" id="FORMA3">
+		<input type="text" name="login">
+	</form>
+	<kbd>
+LOGIN = FORMA3.login;
+alert(LOGIN.form);
+	</kbd>
+	<button onclick="primer5()">Пример 5</button>
+	<hr>
+	<h2>Пример 6</h2>
+	<select id="SELECT">
+		<option value="apple">Яблоко</option>
+		<option value="pear">Груша</option>
+		<option value="banana">Банан</option>
+	</select>
+	<kbd>
+SELECT.options[2].selected = true;
+SELECT.selectedIndex = 2;
+SELECT.value = 'banana';
+	</kbd>
+	<button onclick="primer6()">Пример 6</button>
+	<hr>
+	<h2>Пример 7</h2>
+	<select id="SELECT2" multiple>
+		<option value="blues" selected>Блюз</option>
+		<option value="rock" selected>Рок</option>
+		<option value="classic">Классика</option>
+	</select>
+	<kbd>
+SELECTED = Array.from(SELECT2.options).filter(option => option.selected).map(option => option.value);
+alert(SELECTED);
+	</kbd>
+	<button onclick="primer7()">Пример 7</button>
+	<hr>
+	<h2>Задача</h2>
+	<select id="genres">
+		<option value="rock">Рок</option>
+		<option value="blues" selected>Блюз</option>
+	</select>
+	<input type="text" id="value1">
+	<input type="text" id="text1">
+	<kbd>
+alert('value = '+ genres.options[genres.selectedIndex].value);
+alert('Text = ' + genres.options[genres.selectedIndex].innerHTML);
+	</kbd>
+	<button onclick="zadacha1()">value и текст</button>
+	<kbd>
+genres.append(new Option('Классика', 'classic'));
+	</kbd>
+	<button onclick="zadacha2()">Добавить classic</button>
+	<kbd>
+if(genres.options.length>2){
+	i=0;
+	while(genres.options[i].value!='classic'){
+		i++;
+	};
+	genres.options[i].selected = true;
+}
+	</kbd>
+	<button onclick="zadacha3()">Выбрать classic</button>
+	<kbd>
+dlina = genres.options.length
+if(dlina>2){
+	for(i=0;i < dlina;i++){
+		if(i>1){
+			genres.options[i].remove();
+		};
+	};
+};
+	</kbd>
+	<button onclick="zadacha4()">Убрать classic</button>
+</body>
+</html>

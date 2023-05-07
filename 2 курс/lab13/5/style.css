@@ -1,0 +1,10 @@
+div{
+	height: 300px;
+	width: 300px;
+	background: repeating-radial-gradient(
+	50px 50px,
+	#E4ECF3 0, #E4ECF3 10%,
+	#77A8CF 10%, #77A8CF 20%,
+	#B8DEFF 20%, #B8DEFF 30%,
+	#BBDDFF 30%);
+}

@@ -1,0 +1,35 @@
+body{
+	color: #343696;
+}
+h3{
+	text-align: center;
+}
+div{
+	margin: 10px;
+}
+div.acid{
+	background-color: #9BF508;
+	border: 2px solid #ccc;
+	width: 100px;
+	float: left;
+	height: 4em;
+}
+div.pink{
+	background-color: #F4D8F8;
+	border: 2px dotted #ccc;
+	width: 70%;
+}
+div.green{
+	background-color: #28AE62;
+	border: 1px solid #ccc;
+	width: 70%;
+	float: left;
+}
+.empty{
+	height: 1em;
+	display: block;
+	visibility: hidden;
+}
+.green div.acid:last-of-type{
+	float: right;
+}

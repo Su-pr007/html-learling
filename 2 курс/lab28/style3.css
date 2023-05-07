@@ -1,0 +1,22 @@
+body{
+	font-size: 40pt;
+	font-family: Arial;
+	text-align: center;
+}
+div:nth-child(1){
+	background-color: #3989C8;
+	height: 100px;
+}
+div:nth-child(2){
+	overflow: hidden;
+}
+span{
+	position: relative;
+	color: #fff;
+	top: 0.393em;
+}
+p{
+	color: #3989c8;
+	position: relative;
+	bottom: 1.54em;
+}

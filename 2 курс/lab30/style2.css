@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	color: #171356;
+	width: 300vh
+}
+header{
+	color: #fff;
+	background-color: #3889C8;
+	font-family: Arial;
+	padding: 30px;
+	font-size: 26pt;
+}
+footer{
+	color: #fff;
+	background-color: #3889C8;
+	padding: 20px;
+	font-family: Arial;
+}
+/* липкий блок */
+nav:first-of-type{
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 30px;
+	background-color: #ccc;	
+	border-bottom: 2px solid #00f;
+}
+nav:last-of-type{
+	position: sticky;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 30px;
+	background-color: #ccc;	
+	border-top: 2px solid #00f;
+}
+/* блок контента */
+div.content{
+	border: 1px solid #000;
+	height: 300vh;
+	position: relative;
+	left: 33vh;
+	right: 0;
+	width: 240vh;
+	top: 7vh;
+	background-color: #ddd;
+	/* Можно ли? */
+	z-index: -100;
+	/* нет */
+}
+/* меню */
+div.menu{
+	background-color: #AADAC2;
+	border: 1px solid #000;
+	position: fixed;
+	left: 10px;
+	top: 40vh;
+	width: 20%;
+}
+/* доп. блок */
+div.additional{
+	margin-left: 80vh;
+	background-color: #AADAC2;
+	border: 1px solid #000;
+	position: sticky;
+	left: 10px;
+	top: 30vh;
+	width: 10%;
+}

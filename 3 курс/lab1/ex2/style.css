@@ -1,0 +1,42 @@
+@media screen and (max-width: 1000px){
+	body{
+		background: radial-gradient( at right top, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at left bottom, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%);
+	}
+}
+@media screen and (max-width: 900px){
+	body{
+		background: radial-gradient( at right top, #00f 0%, #0ff 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at left bottom, #f00 0%, #0f0 50%, rgba(0, 0, 0, 0) 85%);
+
+	}
+}
+@media screen and (max-width: 800px){
+	body{
+		background: radial-gradient( at left top, #faf 0%, #00f 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at right bottom, #bae 0%, #bb0 50%, rgba(0, 0, 0, 0) 85%);
+	}
+}
+@media screen and (max-width: 760px){
+	.nav-menu li{
+		width: calc(100% / 5 - 30px);
+	}
+}
+@media screen and (max-width: 700px){
+	body{
+		background: radial-gradient( at left top, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at right bottom, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%);
+	}
+}
+@media screen and (max-width: 600px){
+	body{
+		background: radial-gradient( at left top, #981231 0%, #fae 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at right bottom, #aec 0%, #cea 50%, rgba(0, 0, 0, 0) 85%);
+	}
+}
+@media screen and (max-width: 500px){
+	body{
+		background: radial-gradient( at left top, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%),
+		radial-gradient(at right bottom, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%);
+	}
+}

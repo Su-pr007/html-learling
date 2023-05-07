@@ -1,0 +1,16 @@
+div{
+	height: 100px;
+	border-radius: 6px;
+	background: #00ff00;
+	margin-bottom: 10px;
+	background: repeating-linear-gradient(
+	to top,
+	#9ACD32 0px, #9ACD32 6px,
+	#008000 7px, #008000 12px)
+}
+.bl_2{
+	background: repeating-linear-gradient(
+	to right,
+	#9ACD32 0px, #9ACD32 6px,
+	#008000 7px, #008000 12px)
+}

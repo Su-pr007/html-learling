@@ -1,0 +1,19 @@
+body{
+	color: #06156F;
+	text-align: justify;
+}
+h2, h3{
+	text-align: center;
+	font-family: Arial;
+}
+h1{
+	font-family: Arial;
+}
+h2~h2{
+	color: #922E0D;
+}
+h2~h2+p{
+	background-color: #ddd;
+	width: 95%;
+	margin: auto;
+}

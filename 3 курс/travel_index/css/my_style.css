@@ -1,0 +1,219 @@
+#header{
+	width: 100%;
+	height: auto;
+}
+#header>p{
+		width: auto;
+		position: absolute;
+		right: 10px;
+		top: 2px;
+		float: none;
+	}
+#footer p{
+	width: 90%;
+}
+#featured{
+	width: 1000px;
+	margin: auto;
+}
+#header div#featured div ul li{
+	width: calc(100% / 3 - 30px)
+}
+/* 500px ------------------------------------------------------------- */
+@media screen and (max-width: 500px){
+	body{
+		background: none;
+		background: linear-gradient(to bottom, #F2F2F2 0,
+		#F2F2F2 120px, #336FB7 120px, #336fb7 130px, #9FEBFB 320px,
+		#D4FCFE 400px, #1F7EC0 401px, #09154F 500px, #09154F 100%);
+		width: auto;
+	}
+	#header{
+		width: auto;
+	}
+	#header div#featured div form select {
+		font-size: 1em;
+	}
+	#header ul#navigation{
+		width: auto;
+	}
+	#header>p{
+		width: 50vw;
+		position: absolute;
+		right: 10px;
+	}
+	#header a#logo{
+		float: none;
+	}
+	#header a#logo img{
+		position: absolute;
+		top: 164px;
+		left: 13vw;
+		width: 78vw;
+	}
+	#header ul.navigation li{
+		width: calc(100vw - 20px);
+	}
+	#header ul.navigation, .header ul.navigation{
+		overflow: unset;
+		float: none;
+		display: grid;
+		margin-top: 160px;
+		width: 100vw;
+	}
+	#header div#featured div.first ul li{
+		margin: 0;
+		float: none;
+	}
+	div#header div.featured ul div{
+		display: none;
+	}
+	#header div#featured div.first ul li a{
+		text-align: left;
+		padding: 0 5px !important;
+		background: none;
+		background: linear-gradient(to bottom, #85CFF1 0, #85CFF1 4px,
+		#81BFDD 6px, #ECECF1 6px, #F8F8F8 20px, #EEEEEE 37px);
+		width: calc(100vw - 15px);
+	}
+	#header div#featured div ul li.first{
+		margin: 0 !important;
+	}
+	#header div#featured div.first ul li.selected a{
+		background: linear-gradient(to bottom, #83CAEB 0, #83CAEB 1px,
+		#81BFDD 1px, #FFD814 3px, #fff999 4px, #FFF318 4px, #F3D01B 37px);
+		width: calc(100vw - 15px);
+	}
+	#header div#featured div{
+		float: none;
+		width: 314px;
+		margin: auto !important;
+	}
+	#header div#featured div ul{
+		height: auto;
+		width: auto;
+	}
+	#content div div h2, #content div div h3{
+		margin: 10px auto;
+		text-align: center;
+	}
+	#content div div div a#download{
+		margin: auto;
+	}
+	#content div div div p{
+		padding-left: 20px;
+	}
+	#footer div{
+		width: auto;
+	}
+	#footer form{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+}
+/* 630px ---------------------------------------------------------------- */
+@media screen and (max-width: 630px){
+	#header>p{
+		width: 50vw;
+	}
+	#header div#featured div ul li.selected div{
+		display: none;
+		position: fixed;
+		z-index: -3;
+		height: 0;
+	}
+	#header div#featured div{
+		float: none;
+		margin: auto !important;
+		width: 314px;
+	}
+	#header div#featured div.first{
+		margin-left: auto !important;
+	}
+	#header div#featured div ul li{
+		margin: 0 !important;
+	}
+	#header div#featured div.selected ul li a, #header div#featured div.first ul li a{
+		display: flex;
+		text-align: left;
+		width: 390px;
+		padding-left: 0 !important;
+	}
+	#header div#featured div ul{
+		width: 250px;
+		margin: auto;
+		height: auto;
+	}
+	#header div#featured div ul li.first{
+		margin: 0 !important;
+	}
+	#header div#featured div.first ul li{
+		float: none;
+	}
+	#header div#featured div.first{
+		width: 100vw !important;
+		margin: auto !important;
+	}
+}
+/* 767px ---------------------------------------------------------------- */
+@media screen and (max-width: 767px){
+	#header ul.navigation{
+		float: none;
+	}
+	#header div#featured div.first{
+	}
+	#content div div{
+		float: none;
+		margin: auto !important;
+	}
+	#content div{
+		width: 100vw;
+	}
+}
+/* 830px ---------------------------------------------------------------- */
+@media screen and (max-width: 830px){
+	
+	#header a#logo{
+		float: none;
+	}
+}
+/* 960px ----------------------------------------------------------------- */
+@media screen and (max-width: 970px){
+	#content div{
+		width: auto;
+	}
+	#content div div#news{
+		width: 200px;
+		margin: 20px auto !important;
+	}
+	#header div#featured div.first{
+		margin: auto;
+		width: 630px;
+		float: none;
+	}
+	#header div#featured{
+		height: auto;
+		width: 100vw;
+	}
+	#header div#featured div:nth-child(2){
+		width: 309px;
+		float: none;
+		margin: auto;
+	}#header ul.navigation{
+		float: none;
+	}
+	#content div div{
+		float: none;
+		margin: 20px auto;
+	}
+	#content div div.first{
+		margin: 20px auto;
+	}
+	#footer ul{
+		float: none;
+	}
+	#footer form{
+		margin: 20px 0 0 20px;
+		float: none;
+	}
+}

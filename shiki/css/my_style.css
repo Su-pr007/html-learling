@@ -1,0 +1,16 @@
+@keyframes hovir{
+	0%{
+		transform: scale(1);
+	}
+	60%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1.05);
+	}
+}
+.l-page a:hover,
+.l-page span:hover{
+	animation: hovir 1s ease-in-out;
+	animation-fill-mode: both;
+}

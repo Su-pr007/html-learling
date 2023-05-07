@@ -1,0 +1,21 @@
+.container{
+	width: 484px;
+	height: 465px;
+	background-color: #999;
+}
+.cell{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin: 2px 5px;
+}
+.black{
+	background-color: #000;
+}
+.white{
+	background-color: #fff;
+}
+.border{
+	padding-top: 3px;
+	border: 2px solid grey;
+}

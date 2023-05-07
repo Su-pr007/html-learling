@@ -1,0 +1,60 @@
+h2{
+	color: #0A1272;
+	margin: 0;
+}
+hr{
+	margin-bottom: 30px;
+}
+div{
+	color: #0A1272;
+}
+img{
+	width: auto;
+	height: 1em;
+}
+span{
+	border-top: 1px solid #0A1272;
+	border-bottom: 1px solid #0A1272;
+}
+.main{
+	background-color: #F1F1F1;
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+	border-bottom: 1px solid #000;
+}
+.right{
+	display: block;
+	text-align: right;
+}
+div.right+div{
+	border-bottom: 1px solid #000;
+	padding-bottom: 3px;
+}
+.little{
+	font-size: 0.8em;
+}
+.sp_1{
+	vertical-align: baseline
+}
+.sp_2{
+	vertical-align: bottom;
+}
+.sp_3{
+	vertical-align: middle;
+}
+.sp_4{
+	vertical-align: sub;
+}
+.sp_5{
+	vertical-align: super;
+}
+.sp_6{
+	vertical-align: text-bottom;
+}
+.sp_7{
+	vertical-align: text-top;
+}
+.sp_8{
+	vertical-align: top;
+}

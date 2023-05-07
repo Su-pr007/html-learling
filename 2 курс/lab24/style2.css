@@ -1,0 +1,25 @@
+body{
+	color: #06156F;
+}
+h2, h3{
+	text-align: center;
+	font-family: Arial;
+}
+code{
+	color: #E9611E;
+}
+div{
+	width: 90%;
+	margin: auto;
+	box-shadow: 0 2px 4px #ccc;
+	margin-top: 20px;
+	padding: 10px;
+}
+div input{
+	display: block;
+	width: 90%;
+	margin-bottom: 10px;
+}
+input[placeholder]{
+	background-color: #ea5cf4;
+}

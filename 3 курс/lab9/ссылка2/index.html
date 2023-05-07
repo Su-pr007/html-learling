@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Кликните на кнопку ниже</h1>
+	<input type='button' value='Кликните, чтобы увидеть форму' onclick='showPrompt("Введите что-нибудь<br>...умное :)", "")'>
+	<div id="prompt-form-container">
+    <form id="prompt-form" onsubmit="return false">
+      <div id="prompt-message">Введите что-нибудь...
+        <br>Пожалуйста..</div>
+      <input name="text" type="text">
+      <input type="submit" onclick='callback(document.getElementsByName("text")[0].value)' value="Ok">
+      <input type="button" name="cancel" value="Отмена" onclick='callback(null)'>
+    </form>
+  </div>
+	<script src='js/script.js'></script>
+</body>
+</html>

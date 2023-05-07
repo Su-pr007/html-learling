@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <title>ТАБЛИЦА</title>
+  <link rel='stylesheet' href='style.css'>
+ </head>
+ <body>
+ <script>
+ let a = prompt('Количество строк: ');
+ let b = prompt('Количество столбцов: ');
+ let color1 = prompt('Цвет 1:');
+ let color2 = prompt('Цвет 2:');
+ document.write(`<table>`);
+ for (i=1;i<=a;i++){
+ let i1 = i;
+  document.write("<tr style='height: 20px;'>");
+   for (j=1;j<=b;j++){
+    if(i1%3==2){
+     document.write(`<td style='background-color: ${color1}; width: 20px;'></td>`);
+    }
+    else {
+     document.write(`<td style='background-color: ${color2}; width: 20px;'></td>`);
+    }
+	i1++
+   }
+   document.write("</tr>");
+   }
+  document.write("</table>");
+ </script>
+ <script>
+  document.write(`<table>`);
+ let i1 = 1;
+ for (i=1;i<=a;i++){
+  document.write("<tr>");
+   for (j=1;j<=b;j++){
+    if(j<=i){
+     document.write(`<td style='background-color: ${color1}'></td>`);
+    }
+    else {
+     document.write(`<td style='background-color: ${color2}'></td>`);
+    }
+	i1++
+   }
+   document.write("</tr>");
+   }
+  document.write("</table>");
+ </script>
+ <script>
+  document.write(`<table>`);
+  for (i=1;i<=a;i++){
+  if(i%2==1) {document.write("<tr>");
+   for (j=1;j<=b;j++){
+   if(j%2==1){
+   document.write(`<td style='background-color: ${color1}'></td>`);
+   }
+   else {
+   document.write(`<td style='background-color: ${color2}'></td>`);
+   }
+   }
+   document.write("</tr>");
+  }
+  else {document.write("<tr>");
+   for (j=1;j<=b;j++){
+   if(j%2==0){
+   document.write(`<td style='background-color: ${color1}'></td>`);
+   }
+   else {
+   document.write(`<td style='background-color: ${color2}'></td>`);
+   }
+   }
+   document.write("</tr>");
+  }
+ 
+  }
+  document.write("</table>");
+ </script>
+ <table cellspacing='0'>
+   <caption>ТАБЛИЦА</caption>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+  </table>
+ </body>
+</html>

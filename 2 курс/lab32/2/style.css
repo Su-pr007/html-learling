@@ -1,0 +1,22 @@
+body{
+	color: #343696;
+}
+div{
+	margin: 10px;
+	background-color: #9BF508;
+	padding: 10px;
+	border: 1px solid #000;
+}
+div.fl_l{
+	float: left;
+}
+div.fl_r{
+	float: right;
+}
+.fl_r div{
+	display: inline-block;
+}
+h3{
+	text-align: center;
+	clear: both;	
+}

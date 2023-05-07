@@ -1,0 +1,17 @@
+.redBlock{
+	background-color: #f00;
+	height: 400px;
+}
+.yellowBlock{
+	background-color: #ff0;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	display: inline-block;
+}
+input[value="Добавить квадрат"]{
+	margin: 10px auto;
+}
+.wrapper{
+	border: 2px double lightgrey;
+}

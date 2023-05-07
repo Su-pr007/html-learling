@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <title>Трансформирование текста</title>
+  <link rel='stylesheet' href='style.css'>
+ </head>
+ <body>
+  <h2>Лабораторная работа №20. Форматирование
+  текста в CSS_трансформирование текста</h2>
+  <br><br>
+  <h4>Трансформирование текста<br></h4>
+  <h2><code>text-transform</code></h2>
+  <div class='hover_red'>Преобразование текста в
+  верхний и регистр</div>
+  <div class='hover_green'>Преобразование текста в
+  нижний регистр</div>
+  <div class='hover_yellow'>Преобразование первых
+  букв каждого слова из строчных в заглавные</div>
+  <div class='hover_blue'>Наследуется</div>
+  <table border='1' cellpadding='8px'>
+   <tr>
+    <td>Значения:</td>
+	<td></td>
+   </tr>
+   <tr>
+    <td><code>none</code></td>
+	<td>Значение по умолчанию, означает
+	отсутствие трансформации. Также отменяет
+	трансформацию текста для элемента в
+	группе элементов с установленным свойством.</td>
+   </tr>
+   <tr>
+    <td><code>capitalize</code></td>
+    <td>Изменяет написание первой буквы каждого
+	слова в элементе, делая её прописной.</td>
+   </tr>
+   <tr>
+    <td><code>uppercase</code></td>
+    <td>Выводит все слова в элементе прописными буквами.</td>
+   </tr>
+   <tr>
+    <td><code>lowercase</code></td>
+    <td>Выводит все слова в элементе строчными буквами.</td>
+   </tr>
+   <tr>
+    <td><code>initial</code></td>
+    <td>Устанавливает значение свойства в значение
+	по умолчанию.</td>
+   </tr>
+   <tr>
+    <td><code>inherit</code></td>
+    <td>Наследует значение свойства от родительского элемента.</td>
+   </tr>
+  </table>
+  <p>Синтаксис<br>
+  <code>h2 {text-transform: none;}</code><br>
+  <code>h2 {text-transform: capitalize;}</code><br>
+  <code>h2 {text-transform: uppercase;}</code><br>
+  <code>h2 {text-transform: lowercase;}</code></p>
+  <div class='tr_up'>Ниф-Ниф решил, что проще и скорее
+  всего сматерить дом из соломы.
+  <div class='tr_none'>Ни с кем не посоветовавшись, он так и сделал. Уже
+  к вечеру его хижина была готова.<br>
+  <code>text-transform: none;</code></div></div>
+  <div class='tr_cap'>
+   Ниф-Ниф положил на крышу последнюю соломинку и,
+   очень довольный своим домиком, весело запел:<br>
+   <code>text-transform: capitalize;</code>
+  </div>
+  <div class='tr_up wh-sp_pre'>Хоть полсвета обойдёшь,
+Обойдёшь, обойдёшь,
+Лучше дома не найдёшь,
+Не найдёшь, не найдёшь!
+<code>text-transform: uppercase;</code></div>
+  <div class='tr_low'>Напевая эту песенку, он направился к Нуф-Нуфу.<br>
+  <code>text-transform: lowercase;</code><br><br>
+  <span class='tr_init'>Нуф-Нуф невдалеке тоже строил себе домик. Он старался скорее покончить с этим скучным и неинтересным делом.
+Сначала, так же как и брат, он хотел построить дом из соломы.
+Но потом решил, что в таком доме зимой будет очень холодно. Дом
+будет прочнее и теплее, если его построить из веток и тонких
+прутьев. Так он и сделал.<br>
+  <code>text-transform: initial;</code></span></div>
+  <div class='tr_n wh-sp_pre'>Он вбил в землю колья, переплёл их прутьями, на крышу навалил сухих листьев, и к вечеру дом был готов.
+  <div class='tr_inh'>Нуф-Нуф с гордостью обошёл его несколько раз кругом и запел:</div>
+<span class='tr_none'>У меня хороший дом,</span>
+<span class='tr_cap'>Новый дом, прочный дом.</span>
+<span class='tr_low'>Мне не страшен дождь и гром,</span>
+<span class='tr_up'>Дождь и гром, дождь и гром!</span>
+  <div class='last_block'>
+  <div>Сергей Владимирович Михалков. Три поросенка</div>
+  <img src='svin.png'></div></div>
+ </body>
+</html>

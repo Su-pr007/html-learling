@@ -1,0 +1,35 @@
+body{
+	color: #121368;
+}
+div{
+	height: 100px;
+	position: absolute;
+	width: 10%;
+}
+div.first{
+	height: 200px;
+	width: 50%;
+	background-color: rgba(174, 33, 30, 0.5);
+}
+div.first:hover{
+	z-index: 1;
+}
+div.second{
+	background-color: rgba(218, 187, 41, 0.5);
+	top: 170px;
+}
+div.third{
+	left: 8%;
+	top: 170px;
+	background-color: rgba(37, 218, 37, 0.5);
+}
+div.fourth{
+	top: 170px;
+	left: 16%;
+	background-color: rgba(32, 82, 185, 0.5);
+}
+div.fifth{
+	background-color: rgba(211, 37, 211, 0.5);
+	top: 170px;
+	left: 24%;
+}

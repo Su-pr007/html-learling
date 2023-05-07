@@ -1,0 +1,19 @@
+input{
+	display: block;
+}
+input[type='button']{
+	margin: 10px 0;
+}
+div{
+	border: 2px solid #909;
+	padding: 10px;
+}
+#cookedBox{
+	position: fixed;
+	top: 10px;
+	right: 5px;
+	width: 500px;
+	resize: none;
+	font: 0.8em Arial;
+	height: calc(100vh - 40px);
+}

@@ -1,0 +1,74 @@
+body{
+	color: #060081;
+}
+h2, h4{
+	text-align: center;
+}
+code{
+	color: #ED5B24;
+}
+div{
+	width: 90%;
+	margin: 20px auto;
+	box-shadow: 0 0 3px #333;
+	padding: 10px;
+}
+table{
+	margin: auto;
+	width: 90%;
+	margin-bottom: 20px;
+	border-color: #A8A7AA;
+	border-collapse: collapse;
+}
+/* Экспериментальные строки ОТ */
+.hover_red{
+	box-shadow: inset 5px 0 0 #F05C22, 0 0 3px #333;
+}
+.hover_red:hover{
+	box-shadow:  0 0 3px 2px #777;
+}
+.hover_green{
+	box-shadow: inset 5px 0 0 #8CC73F, 0 0 3px #333;
+}
+.hover_green:hover{
+	box-shadow:  0 0 3px 2px #777;
+}
+.hover_yellow{
+	box-shadow: inset 5px 0 0 #FDBA30, 0 0 3px #333
+}
+.hover_yellow:hover{
+	box-shadow:  0 0 3px 2px #777;
+}
+.hover_blue{
+	box-shadow: inset 5px 0 0 #1ACFCA, 0 0 3px #333;
+}
+.hover_blue:hover{
+	box-shadow:  0 0 3px 2px #777;
+}
+/* Экспериментальные строки ДО */
+.tr_up{
+	text-transform: uppercase;
+}
+.wh-sp_pre{
+	white-space: pre-wrap;
+}
+.tr_none{
+	text-transform: none;
+}
+.tr_cap{
+	text-transform: capitalize;
+}
+.tr_low{
+	text-transform: lowercase;
+}
+.tr_init{
+	text-transform: initial;
+}
+.tr_inh{
+	text-transform: inherit;
+}
+.last_block{
+	background-color: #F79B75;
+	color: #fff;
+	text-align: center;
+}

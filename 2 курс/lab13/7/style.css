@@ -1,0 +1,39 @@
+div{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	box-shadow: rgba(0, 0, 0, 0.7) 4px 4px 5px;
+}
+.bl_1{
+	background: radial-gradient(50% 65%,
+	#9876DC 0%, #FEF5ED 80%)
+}
+.bl_2{
+	background: linear-gradient(to right,
+	#ACD8E5 0%, #ACD8E5 20%,
+	#91EE8E 21%, #D6BFDD 80%,
+	#F6DDB4 80%, #F6DDB4 100%)
+}
+.bl_3{
+	background: repeating-radial-gradient(circle,
+	#00FF9B 0%, #00FF9B 5%,
+	#FBC5CD 5%, #FBC5CD 10%)
+}
+.bl_4{
+	background: radial-gradient(circle
+	at 100px 50px,
+	#ffff00 0%, #777 90%)
+}
+.bl_5{
+	background: radial-gradient(circle, 
+	#F38483 0%, #fff 100%)
+}
+.bl_6{
+	background: radial-gradient(circle
+	at 250px 50px,
+	#E2FEFD 0%, #FC1AFF 70%)
+}

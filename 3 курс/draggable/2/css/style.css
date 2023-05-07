@@ -1,0 +1,17 @@
+#lotok{
+	height: 200px;
+	width: 200px;
+	background-color: #909;
+	border: 2px groove #990;
+	margin: auto;
+}
+.block{
+	height: 150px;
+	width: 150px;
+	background-color: #333;
+	border: 2px dashed #099;
+	border-radius: 50%;
+}
+.ui-droppable-hover{
+	box-shadow: 0 0 5px 10px #900;
+}

@@ -1,0 +1,23 @@
+div{
+	border: 1px solid #93F00F;
+	background-color: #E8EDFF;
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+div:lang(ru){
+	color: #f00;
+}
+div:lang(en){
+	font-style: italic;
+}
+div:lang(de){
+	background-color: #CE0000;
+	color: #fff;
+}
+div:lang(fr){
+	text-decoration: overline;
+}
+div:lang(it){
+	letter-spacing: 1em;
+}

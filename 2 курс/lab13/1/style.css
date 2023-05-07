@@ -1,0 +1,42 @@
+div{
+	padding: 50px;
+	border-radius: 6px;
+	display: inline-block;
+	color: #fff;
+	margin: 10px;
+}
+.bl_1{
+	background: linear-gradient(
+	to bottom right, #ffff00, #f23217, #700090)
+}
+.bl_2{
+	background: linear-gradient(
+	to bottom, #ffff00, #f23217, #700090)
+}
+.bl_3{
+	background: linear-gradient(
+	to bottom left, #ffff00, #f23217, #700090)
+}
+.bl_4{
+	background: linear-gradient(
+	to right, #ffff00, #f23217, #700090)
+}
+.bl_5{
+	background: #fff;
+}
+.bl_6{
+	background: linear-gradient(
+	to left, #ffff00, #f23217, #700090)
+}
+.bl_7{
+	background: linear-gradient(
+	to top right, #ffff00, #f23217, #700090)
+}
+.bl_8{
+	background: linear-gradient(
+	to top, #ffff00, #f23217, #700090)
+}
+.bl_9{
+	background: linear-gradient(
+	to top left, #ffff00, #f23217, #700090)
+}

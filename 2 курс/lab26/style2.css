@@ -1,0 +1,21 @@
+table td{
+	border: 1px solid #ccc;
+	border-radius: 20px/50%;
+	padding: 10px;
+}
+/* Первый td */
+td:first-child{
+	background-color: #aacfd9;
+}
+/* Последний td */
+td:last-child{
+	background-color: #45fd86
+}
+/* Второй с конца tr */
+tr:nth-last-child(2){
+	color: #f00;
+}
+/* tr, являющийся единственным потомком */
+tr:only-child{
+	text-decoration: overline;
+}

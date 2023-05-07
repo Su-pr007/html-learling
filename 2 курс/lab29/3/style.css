@@ -1,0 +1,30 @@
+body{
+	color: #111470;
+	margin: 0;
+	font-size: 20pt;
+}
+li{
+	margin-bottom: 1em;
+}
+li:before{
+	content: ') '
+}
+header{
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0vh;
+	right: 0vw;
+	left: 0vw;
+	bottom: 0vh;
+}
+header div{
+	background-color: #fff;
+	padding: 20px;
+	font-weight: bold;
+	width: 20%;
+	position: absolute;
+	top: 45vh;
+	left: 36vw;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <title>Форматирование текста</title>
+  <link rel='stylesheet' href='style.css'>
+ </head>
+ <body>
+  <h2>Лабораторная работа №18. Форматирование текста
+  в CSS_управление интервалами</h2>
+  <br>
+  <br>
+  <p>Расстояние между буквами: 
+  <kbd>letter-spacing</kbd></p>
+  <div class='l_s_n'>Значение по умолчанию, не добавляет
+  дополнительное
+  пространство
+  мужду буквамми и символами - <kbd>normal</kbd>.</div>
+  <div class='l_s_1em'>Значение задаётся в единицах длины,
+  положительные
+  значения увеличивают промежутки между буквами и символами.
+  Например, <kbd>letter-spacing: 1em</kbd>.</div>
+  <div class='l_s_-1em'>Значение задаётся в единицах длины,
+  отрицательные значения уменьшают расстояние между буквами и
+  символами. Например, <kbd>letter-spacing: -1em</kbd>.</div>
+  <div class='l_s_5px'>Можно использовать, как относительные,
+  так и точные единицы измерения.
+  Например, <kbd>letter-spacing: 5px</kbd>.</div>
+  <div class='l_s_int'>Устанавливает значение свойства
+  в значение
+  по умолчанию.</div>
+  <div class='l_s_inh'>Наследует значение свойства
+  от родительского элемента.</div>
+  <br>
+  <br>
+  <p>Растояние между словами: <kbd>
+  word-spacing</kbd></p>
+  <div class='word_s_n'>Значение по умолчанию <kbd>
+  normal</kbd>, равное 0.25em.</div>
+  <div class='word_s_1em'>Значение задаётся в единицах длины,
+  положительные значения увеличивают промежутки между словами.
+  Например, <kbd>word-spacing: 1em</kbd>.</div>
+  <div class='word_s_-1em'>Значение задаётся в единицах длины.
+  отрицательные значения уменьшают промежутки между словами.
+  Например, <kbd>word-spacing: -1em</kbd>.</div>
+  <div class='word_s_5px'>Можно использовать, как
+  относительные, так и точные единица измерения. Например,
+  <kbd>word-spacing: 5px</kbd>.</div>
+  <div class='word_s_int'>Устанавливает значение свойства в значение
+  по умолчанию.</div>
+  <div class='word_s_inh'>Наследует значение свойства от
+  родительского элемента.</div>
+  <br>
+  <br>
+  <p>ПРОБЕЛЫ между словами и ПЕРЕНОСЫ строк внутри элемента:
+  <kbd>white-space</kbd></p>
+  <div class='wh_s_n'><kbd>normal</kbd> - значение
+  по умолчанию. Между словами вставляется только по одному
+  пробелу, дополнительные пробелы отбрасываются. Текст
+  переносится только в случае необходимости.</div>
+  <div class='wh_s_nr'><kbd>nowrap</kbd> - Запрещает
+  переносы строк, за исключением применения <kbd>< br></kbd><br>
+  Lorem ipsum dolor sit amel, consectetur adipiscing elit. Etiam
+  vitae elit nibh.<br>Vivamus tristique bibendum odio ut condimentum.
+  Curabitur nulla nisi, lobortis sit amet molestie nec, mollis
+  et mauris.<br>Fusce posuere purus id pharetra posuere.<br>
+  Quisque pulvinar tincidunt metus in mollis. Duis a dignissim
+  nunc.</div>
+  <div class='wh_s_pre'><kbd>pre</kbd> - <br>пробелы в тексте не игнорируются, браузер отображает дополнительные пробелы и переносы строк.
+  
+"Я повествую только о своём:
+Что в жизни много разного, и в нём
+Мы усмотреть должны все краски бытия и быта,
+Чтоб не остаться у разбитого корыта."
+  
+  Омар Хайям</div>
+  <div class='wh_s_pre-w'><kbd>pre-wrap</kbd> - позволяет      сохранить все пробелы в текста,     делая разрывы строк там, где это необходимо.        Phasellus suscipit, purus eusodales suscipit, urna ligula consequat nisl, id tempus augue augue non massa. Sed auctor odio ex, vel eleifend neque interdum eget.</div>
+  <div class='wh_s_pre-l'><kbd>pre-line</kbd> - Удаляет лишние пробелы, за исключением случаев.
+  Phasellus suscipit, purus eu sodales suscipit, urna ligula consequat nisl, id tempus augue nono massa.
+  Sed auctor odio ex, vel eleifend neque interdum eget.</div>
+  <div class='wh_s_int'><kbd>initial</kbd> Устанавливает значение свойства в значение по умолчанию.</div>
+  <div class='wh_s_inh'><kbd>inherit</kbd> Наследует значение свойства от родительского элемента.</div>
+ </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+	color: #06156F;
+}
+h2, h3{
+	text-align: center;
+	font-family: Arial;
+}
+code{
+	color: #E9611E;
+}
+div{
+	width: 90%;
+	margin: auto;
+	box-shadow: 0 2px 4px #ccc;
+	margin-top: 20px;
+	padding: 10px;
+}
+/* Первое задание */
+div>p{
+	color: #6D1100;
+}
+p[title]{
+	color: #767C8C;
+}
+/* Второе задание */
+p+div input{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #C8FFC6;
+}
+input[placeholder]{
+	background-color: #ea5cf4;
+}
+/* Третье задание */
+a[target='_blank']{
+	text-decoration: overline;
+}
+/* Четвёртое задание */
+a[href$='.com']{
+	color: #00aa00;
+}
+a[href$='.ru']{
+	color: #ff0000;
+}
+/* Пятое задание */
+input[type='submit']{
+	background-color: #000081;
+	border-radius: 15%/50%;
+	color: #fff;
+	padding: 2px 20px;
+	width: auto;
+}
+input[type='button']{
+	background-color: #008100;
+	border-radius: 20%/50%;
+	color: #fff;
+	padding: 2px 20px;
+	width: auto;
+}

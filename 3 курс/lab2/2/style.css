@@ -1,0 +1,19 @@
+body>div{
+	background-color: #ba9;
+	display: flex;
+}
+div div{
+	margin: 10px;
+	background-color: #ada;
+	flex-basis: 20%;
+	
+}
+div div:nth-child(5){
+	flex-grow: 0.6;
+}
+div div:nth-child(even){
+	flex-shrink: 1;
+}
+div div:nth-child(6){
+	flex-shrink: 0.5;
+}

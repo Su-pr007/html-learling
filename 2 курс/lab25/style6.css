@@ -1,0 +1,3 @@
+#ex_6:not(:target){
+	display: none
+}

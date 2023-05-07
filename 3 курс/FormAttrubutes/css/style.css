@@ -1,0 +1,57 @@
+body{
+	font-family: monospace;
+}
+h1{
+	color: #05436B;
+	font-family: Cursive;
+	text-align: center;
+}
+h2{
+	color: #044817;
+	font-family: Arial;
+}
+li{
+	margin-bottom: 10px;
+}
+nav{
+	border-bottom: 2px solid black;
+	background: rgba(170, 170, 170, 0.7);
+}
+nav li{
+	font-family: Arial;
+}
+nav li:hover{
+	border-bottom: 2px solid #333;
+}
+form, optgroup{
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+input, select, optgroup, textarea, button, kbd, fieldset{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type='image']{
+	width: 200px;
+}
+.to-top{
+	display: block;
+	position: sticky;
+	top: calc(100vh - 50px);
+	right: 10px;
+	float: right;
+	border: 1px solid black;
+	border-radius: 1px;
+	padding: 10px;
+	background: #A2D2D2;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: #00e;
+}
+input:invalid{
+	box-shadow: 0 0 5px #f00;
+}

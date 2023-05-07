@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>13</title>
+</head>
+<body>
+
+	<script>
+		let str = 'Каждый охотник желает знать, где сидит фазан.';
+		let array = str.split(' ');
+		for(i in array){
+			asd=array[i].split('').filter((a, b)=>{
+  				if(b==0) return a
+  			});
+  			array[i]=asd.join('');
+		}
+		document.write(array);
+	</script>
+</body>
+</html>

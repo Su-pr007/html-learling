@@ -1,0 +1,43 @@
+div{
+	background-color: #f00;
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+/* цвет */
+div:nth-of-type(2n){
+	left: 10px;
+	top: -90px;
+	background-color: #F80;
+}
+div:nth-of-type(3n){
+	left: 20px;
+	top: -180px;
+	background-color: #FF0;
+}
+div:nth-of-type(4n){
+	left: 30px;
+	top: -270px;
+	background-color: #0f0;
+}
+div:nth-of-type(5n){
+	left: 40px;
+	top: -360px;
+	background-color: #0fe;
+}
+/* z индексы */
+.z1{
+	z-index: 1;
+}
+.z2{
+	z-index: 2;
+}
+.z3{
+	z-index: 3;
+}
+.z4{
+	z-index: 4;
+}
+.z5{
+	z-index: 5;
+}

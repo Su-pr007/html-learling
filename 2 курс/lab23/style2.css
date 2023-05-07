@@ -1,0 +1,21 @@
+body{
+	color: #06156F;
+}
+h1, h3{
+	text-align: center;
+	font-family: Arial;
+}
+div{
+	background: #9AEFA2;
+	border: 3px solid #100C93;
+	margin-bottom: 10px;
+	width: 80%;
+	margin: auto;
+	padding: 5px;
+}
+div~a{
+	color: #23652D;
+}
+div a{
+	text-decoration: none;
+}

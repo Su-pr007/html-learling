@@ -1,0 +1,54 @@
+div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+/* Так нужно */
+h2{
+	margin-top: 500px;
+}
+/* цвет */
+div.red{
+	left: 10px;
+	top:  10px;
+	background-color: #f00;
+}
+div.orange{
+	left: 20px;
+	top: 20px;
+	background-color: #F80;
+}
+div.yellow{
+	left: 30px;
+	top: 30px;
+	background-color: #FF0;
+}
+div.green{
+	left: 40px;
+	top: 40px;
+	background-color: #0f0;
+}
+div.blue{
+	left: 50px;
+	top: 50px;
+	background-color: #0fe;
+}
+/* z индексы */
+.z1{
+	z-index: 1;
+}
+.z2{
+	z-index: 2;
+}
+.z3{
+	z-index: 3;
+}
+.z4{
+	z-index: 4;
+}
+.z5{
+	z-index: 5;
+}
+.big_father{
+	opacity: 0.5;
+}

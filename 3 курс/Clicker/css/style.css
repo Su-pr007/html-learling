@@ -1,0 +1,220 @@
+body{
+	background-image: url(../img/bg/16.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Arial;
+}
+header{
+	height: 100vh;
+}
+div.button, .inContent, .donate, button{
+	box-shadow: 2px 2px 5px 0 #000;
+	outline: none;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.container:hover::before, .container:hover::after{
+	content: '';
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	border: 2px solid #00949B;
+	animation: waves 1.8s infinite linear;
+	opacity: 0;
+	z-index: -1;
+}
+.container:hover::after{
+	animation-delay: 0.5s;
+}
+.counter{
+	position: fixed;
+	padding: 10px;
+	top: -70px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: #000;
+	color: #fff;
+	text-shadow: 1px 1px #333;
+}
+.post{
+	position: absolute;
+	background-color: #f00;
+	color: #fff;
+	padding: 5px;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-shadow: 1px 1px #300;
+}
+.button{
+	border: 10px solid #017781;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	background: url(../img/Usual.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	font-size: 5em;
+	font-family: Arial;
+}
+@keyframes waves{
+	0%{
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	50%{
+		opacity: 1;
+		transform: scale(1.1);
+	}
+	100%{
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
+.changeBG{
+	z-index: 1;
+	border-radius: 5px;
+	position: absolute;
+	top: 50px;
+}
+.Lolicia{
+	background: url(../img/Lolicy.png) no-repeat;
+	background-size: cover;
+	background-position-y: 10%;
+}
+.Lolicia::after{
+	content: 'Попался!';
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	color: #f00;
+	font-size: 8em;
+	font-family: Arial;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+
+}
+.Lolicia::before{
+	content: 'Штраф 15 секунд и 10 очков';
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+	color: #f00;
+	font-size: 5em;
+	font-family: Arial;
+	width: 100vw;
+	text-align: center;
+}
+.donate{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #ccc;
+	font-family: Arial;
+	padding: 5px;
+}
+.donate a{
+	text-decoration: none;
+}
+.donate a:visited{
+	color: #00e;
+}
+.content{
+	width: 100vw;
+}
+.inContent{
+	width: 90%;
+	background-color: rgba(170, 170, 170, 0.8);
+	margin: auto;
+	padding: 10px;
+}
+.inContent h2{
+	text-align: center;
+	color: #006;
+}
+.achieve{
+	position: fixed;
+	bottom: -128px;
+	left: 10%;
+	right: 10%;
+	background: url(../img/achieve.jpg) no-repeat;
+	background-size: cover;
+	height: 128px;
+	opacity: 0;
+	animation: achieveAppear 5s ease-in-out alternate;
+	animation-iteration-count: 1;
+}
+@keyframes achieveAppear{
+	0%, 100%{
+		bottom: -128px;
+		opacity: 0;
+	}
+	20%, 80%{
+		opacity: 1;
+		bottom: 0;
+	}
+}
+.Lolicioner{
+	position: fixed;
+	bottom: -200px;
+	background: url(../img/Lolicioner.png);
+	width: 100vw;
+	left: 0;
+	height: 400px;
+}
+.Lolicioner1, .Lolicioner2{
+	position: fixed;
+	bottom: -200px;
+	background: url(../img/Lolicioner.png);
+	width: 225px;
+	left: -200px;
+	transform: rotate(45deg);
+	height: 400px;
+	animation: LoliciaAppear 2s ease-in-out alternate 1;
+	opacity: 0;
+}
+@keyframes LoliciaAppear{
+	0%, 100%{
+		bottom: -400px;
+		left: -200px;
+		opacity: 0;
+	}
+	20%, 80%{
+		opacity: 1;
+		bottom: -200px;
+		left: -100px;
+	}
+}
+.radio{
+	width: 100vw;
+	background-color: #333;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+}
+.radio div.play, .pause, .volumePlus, .volumeMinus{
+	width: 20px;
+	height: 20px;
+	background: url('https://im0-tub-ru.yandex.net/i?id=c347686bb71b4bdd8554bba63c466218&n=13');
+	background-size: cover;
+	display: inline-block;
+}
+.pause{
+	background-image: url('https://im0-tub-ru.yandex.net/i?id=ec22813d2ae4f18d1595104b9dcf4d2a&n=13');
+}

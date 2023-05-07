@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <title>Пример 2</title>
+  <style>
+   @media screen {
+    body{
+	 font-family: RUBLENIY;
+	 font-size: 14pt;
+	 color: #444;
+	}
+	h1{
+	 background-color: #fff;
+	 border: 2px dashed maroon;
+	 padding: 7px;
+	 color: #444;
+	}
+	h2{
+	 color: #444;
+	 margin: 0;
+	}
+	p{
+	 margin-top: 0.5em;
+	}
+   }
+   @media print{
+    body{
+	 font-family: Times, 'Times New Roman', serif;
+	}
+	h1, h2, p{
+	 color: black;
+	}
+   }
+  </style>
+ </head>
+ <body>
+  <h1>Как поймать льва в пустыне</h1>
+  <h2>Метод случайных чисел</h2>
+  <p>Разделим пустыню на ряд элементарных прямоугольников, размер
+которых совпадает с размером клетки для льва. После чего
+перебираем полученные прямоугольники, каждый раз выбирая заданную
+область случайным образом. Если в данной области окажется лев,
+то мы поймаем его, накрыв клеткой.</p>
+ </body>
+</html>

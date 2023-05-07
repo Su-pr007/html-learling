@@ -1,0 +1,10 @@
+div{
+	height: 50px;
+	background: linear-gradient(
+	to right,
+	#63A69F 0%, #63A69F 20%,
+	#F2E1AC 20%, #F2E1AC 40%,
+	#F2836B 40%, #F2836B 60%,
+	#F2594B 60%, #F2594B 80%,
+	#CD2C24 80%, #CD2C24 100%);
+}

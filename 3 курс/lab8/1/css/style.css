@@ -1,0 +1,16 @@
+form{
+	border: 2px solid #ff0;
+	padding: 10px;
+}
+hr{
+	border-color: #E100DC;
+	background-color: #000;
+	padding: 1px;
+}
+kbd{
+	margin-top: 10px;
+	white-space: pre-wrap;
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+}

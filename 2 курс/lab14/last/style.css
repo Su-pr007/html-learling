@@ -1,0 +1,26 @@
+div{
+	border: 1px solid #000;
+	border-radius: 5px;
+	height: 25px;
+	margin-bottom: 10px;
+	box-shadow: inset 0 5px 10px #fff,
+	inset -30px 0 rgba(130, 130, 130, 0.9);
+}
+.bl_1{
+	background: #ccc;
+}
+.bl_2{
+	background: #ffff00;
+}
+.bl_3{
+	background: #ff0000;
+}
+.bl_4{
+	background: #0000ff;
+}
+.bl_5{
+	background: #00ff00;
+}
+.bl_6{
+	background: #000;
+}

@@ -1,0 +1,34 @@
+div{
+	background: #eef8fa;
+	width: 100%;
+	font-family: Arial;
+}
+.top_block{
+	background: #e3efef;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	width: auto;
+}
+.input_block{
+	background: #fff;
+	margin: 10px;
+	width: auto;
+	color: #999;
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+.bottom_block{
+	background: #e3efef;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	width: auto;
+}
+.button_block{
+	background: #54b5e0;
+	color: #fff;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	margin-left: auto;
+	border: 1px solid #ccc;
+}

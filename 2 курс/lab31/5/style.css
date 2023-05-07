@@ -1,0 +1,39 @@
+div{
+	position: absolute;
+}
+div.yellow{
+	background-color: #F1E150;
+	width: 8vw;
+	height: 70vh;
+	top: 10vh;
+	left: 20vw;
+	position: fixed;
+}
+div.green{
+	background-color: #9BF508;
+	width: 8vw;
+	height: 70vh;
+	top: 10vh;
+	left: 28vw;
+	position: fixed;
+}
+div.purple{
+	background-color: #D478E3;
+	height: 8vh;
+	width: 70vh;
+	top: 30vh;
+	left: 12vw;
+	z-index: ;
+}
+div.cyan{
+	background-color: #47D4E6;
+	height: 8vw;
+	width: 70vh;
+	top: 38vh;
+	left: 12vw;
+	z-index: -1;
+}
+div.ffffffffff{
+	position: absolute;
+	z-index: -1;
+}

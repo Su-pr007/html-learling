@@ -1,0 +1,46 @@
+form{
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+div.opros{
+	display: block;
+	border: 5px solid #7687FE;
+}
+.osebe{
+	width: 40%;
+	height: 100px;
+	resize: none;
+}
+h3{
+	margin: 0;
+}
+
+
+
+@keyframes spinning{
+	0%{
+		transform: rotate(0deg);
+		background: red;
+		border-radius: 0 0 0 0;
+	}
+	50%{
+		transform: rotate(360deg);
+		background: yellow;
+		border-radius: 50% 50% 50% 50%;
+	}
+	100%{
+		transform: rotate(720deg);
+		background: violet;
+		border-radius: 0 0 0 0;
+	}
+}
+.div1{
+	width: 200px;
+	height: 200px;
+	background-color: violet;
+	margin: 50px;
+	animation: spinning 2s infinite ease-in-out alternate-reverse;
+	animation-play-state: paused;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+	<a name='to-top'><h1>Атрибуты элементов формы</h1></a>
+	<nav>
+		<ol>
+			<li><a href="#inputAtr">Атрибуты input</a></li>
+			<li><a href="#selectAtr">Атрибуты select</a></li>
+			<li><a href="#optgroupAtr">Атрибуты optgroup</a></li>
+			<li><a href="#optionAtr">Атрибуты option</a></li>
+			<li><a href="#textareaAtr">Атрибуты textarea</a></li>
+			<li><a href="#buttonAtr">Атрибуты button</a></li>
+			<li><a href="#labelAtr">Атрибуты label</a></li>
+			<li><a href="#legendAtr">Атрибуты legend</a></li>
+		</ol>
+	</nav>
+	<a name='inputAtr'><h2>Атрибуты input</h2></a>
+ type="text"
+	<input type="text">
+	type="email"
+	<input type="email" autocomplete>
+	 type="password"
+	<input type="password">
+	type="date"
+	<input type="date">
+	type="time"
+	<input type="time">
+	type="color"
+	<input type="color">
+	type="search"
+	<input type="search">
+	type="file"
+	<input type="file">
+	type="url"
+	<input type="url">
+	 type="checkbox"
+	<input type="checkbox">
+	 type="radio"
+	<input type="radio">
+	 type="submit"
+	<input type="submit">
+	type="range" min="1" max="11"
+  	<input type="range" min="1" max="11">
+	type="tel"
+	<input type="tel">
+	 type="image" src='img/ok.jpg' border='1' alt='Error 404'
+	<input type="image" src='img/ok.jpg' border='1' alt='Error 404'>
+	<!-- Не обращайте внимания -->
+	<a href='#to-top'><div class='to-top'>Наверх</div></a>
+	<!-- Только для персонала -->
+	<form>
+		 type='text' value='123123123'
+		<input type='text' value='123123123'>
+		 type="reset" value='reset button'
+		<input type="reset" value='reset button'>
+	</form>
+	name='my_name'
+	<input name='my_name'>
+	value='123YaVDomike'
+	<input value='123YaVDomike'>
+	size='10' value='12345678910'
+	<input size='10' value='12345678910'>
+	maxlength='3'
+	<input maxlength='3'>
+	id='form1'
+	<form id='form1'>
+		type='radio' name='asd1'
+		<input type='radio' name='asd1'>
+		type="radio" name='asd1' checked
+		<input type="radio" name='asd1' checked>
+		type='reset' value='давай по новой'
+		<input type='reset' value='давай по новой'>
+	</form>
+	form="form1"
+	<input form="form1">
+	type="number" min='4' max='17' step='2' value='14'
+	<input type="number" min='4' max='17' step='2' value='14'>
+	type="number" min='4' max='17' step='any' value='5.123'
+	<input type="number" min='4' max='17' step='any' value='5.123'>
+	type="number" readonly
+	<input type="number" value='3' readonly>
+	type="number" disabled
+	<input type="number" value='3' disabled>
+	placeholder="your_placehloder"
+	<input placeholder="your_placehloder">
+	<input autocomplete>
+	list='datalist1'
+	<input list='datalist1'>
+	<datalist id='datalist1'>
+		<option value="odin"></option>
+		<option value="dva"></option>
+		<option value="tri"></option>
+		<option value="chetyre"></option>
+		<option value="pyat`"></option>
+	</datalist>
+
+	tabindex
+	<form>
+		tabindex="2"
+		<textarea tabindex="2"></textarea>
+		tabindex="3"
+		<textarea tabindex="3"></textarea>
+		tabindex="1"<textarea tabindex="1"></textarea>
+	</form>
+		accesskey='n'
+		<textarea accesskey='n'></textarea>
+		accesskey='t'
+		<textarea accesskey='t'></textarea>
+		<ul>
+			<li>Internet Explorer: Alt + key</li>
+			<li>Chrome: Alt + key</li>
+			<li>Opera: Shift + key, key</li>
+			<li>Safari: Alt + key</li>
+			<li>Firefox: Shift + Alt + key</li>
+		</ul>
+	<hr>
+	<a name='selectAtr'><h2>Атрибуты select</h2></a>
+	Обычный select
+	<select name="my_name2" id="selecter1">
+		<option>odin</option>
+		<option>dva</option>
+		<option>tri</option>
+	</select>
+	size='3'
+	<select name="my_name2" size='3' id="selecter1">
+		<option>odin</option>
+		<option>dva</option>
+		<option>tri</option>
+	</select>
+	multiple
+	<select name="my_name2" multiple id="selecter1">
+		<option>odin</option>
+		<option>dva</option>
+		<option>tri</option>
+	</select>
+	<hr>
+	<a name='optgroupAtr'><h2>Атрибуты optgroup</h2></a>
+	Обычный optgroup (задан border)
+	<optgroup>
+		<option>odin</option>
+		<option>dva</option>
+	</optgroup>
+	label='asdasd'
+	<optgroup label='asdasd'>
+		<option>odin</option>
+		<option>dva</option>
+	</optgroup>
+	label='asdasd' disabled
+	<optgroup label='asdasd' disabled>
+		<option>odin</option>
+		<option>dva</option>
+	</optgroup>
+	<hr>
+	<a name='optionAtr'><h2>Атрибуты option</h2></a>
+	Для первого option задан selected
+	<optgroup label='asdasd'>
+		<option selected>odin</option>
+		<option>dva</option>
+	</optgroup>
+	Для обоих
+	<optgroup label='asdasd'>
+		<option selected>odin</option>
+		<option selected>dva</option>
+	</optgroup>
+	Что-то точно делает
+	<optgroup label='asdasd'>
+		<option value='123'>odin</option>
+		<option>dva</option>
+	</optgroup>
+	Аналогично
+	<optgroup label='asdasd'>
+		<option label='asdasd'>odin</option>
+		<option>dva</option>
+	</optgroup>
+	<hr>
+	<a name='textareaAtr'><h2>Атрибуты textarea</h2></a>
+	name="asdasd"
+	<textarea name="asdasd"></textarea>
+	rows='5'
+	<textarea rows='5'></textarea>
+	cols='50'
+	<textarea cols='50'></textarea>
+	readonly
+	<textarea readonly></textarea>
+	disabled
+	<textarea disabled></textarea>
+	<hr>
+	<a name='buttonAtr'><h2>Атрибуты button</h2></a>
+	type='button' name='button1'
+	<button type='button' name='button1'>button Sapiens</button>
+	type='submit'
+	<button type='submit'>button Sapiens</button>
+	<form>
+		value='asdasd'
+		<input value='3'>
+		 type='reset' value='2'
+		<button type='reset' value='2'>button Sapiens</button>
+	</form>
+	type='button' onclick='alert("арара")'
+	<button type='button' onclick='alert("арара")'>button Sapiens</button>
+	<hr>
+	<a name='labelAtr'><h2>Атрибуты label</h2></a>
+	input вне lable. При нажатии на этот текст ничего не произойдет
+	<input type="text">
+	<label>
+		input внутри label. При нажатии на этот текст поле станет активным
+		<input type="text">
+	</label>
+	
+	<label for="my_input">input находится вне label. Применяется for к label и id к input</label>
+	<input type="text" id='my_input'>
+	<hr>
+	<a name='legendAtr'><h2>Атрибуты legend</h2></a>
+	Обычный legend == align='left'
+	<fieldset>
+		<legend align='left'>Legend 1</legend>
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</fieldset>
+	align='right'
+	<fieldset>
+		<legend align='right'>Legend 2</legend>
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</fieldset>
+	align='center'
+	<fieldset>
+		<legend align='center'>Legend 3</legend>
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</fieldset>
+
+	<fieldset>
+		<legend align='center'>Legend 3</legend>
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	</fieldset>
+</body>
+</html>

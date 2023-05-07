@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Clicker</title>
+		<link rel="stylesheet" href='css/style.css'>
+	</head>
+	<body>
+			<div class='radio'><audio id="jp_audio_0" preload="none" src="http://pool.anison.fm:9000/AniSonFM(320)?nocache=0.35524875463377636" title="Anison.FM" autoplay></audio>
+				<div class='play' onclick='document.getElementById("jp_audio_0").play()'></div>
+				<div class='pause' onclick='document.getElementById("jp_audio_0").pause()'></div>
+				<input type="range" min='0' max='1' step='0.01' onchange='document.getElementById("jp_audio_0").volume = this.value'>
+			</div>
+		<header>
+			<div id="box" class="box">
+				<div id="container" class="container">
+					<p class="counter" id="counterID">0</p>
+					<div class='button' id='buttonID' onclick="buttonPressed()"></div>
+				</div>
+			</div>
+			<button class="changeBG" onclick='changeBG()'>Сменить фон</button>
+			<div id='post' class="post"></div>
+			<div class="donate">Донатить мне: <a target='_blank' href="img/Ava.jpg">Максим</a></div>
+			</header>
+			<div class="content">
+				<div class="inContent"><h2>Авторы этой чудесной страницы хотят денег</h2>
+					<p>Помогите, пожалуйста</p></div>
+			</div>
+
+		
+		<script src="js/script.js"></script>
+		<!-- Не обращайте внимания  -->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</body>
+</html>

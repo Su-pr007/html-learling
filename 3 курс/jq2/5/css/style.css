@@ -1,0 +1,17 @@
+.littleDiv{
+	height: 150px;
+	width: 150px;
+	background-color: #669;
+}
+.bigDiv{
+	height: 300px;
+	width: 600px;
+	background-color: #669;
+	margin: 20px 0;
+}
+.inputs{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}

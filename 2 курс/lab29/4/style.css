@@ -1,0 +1,23 @@
+div{
+	background-color: #AA7EAF;
+	height: 290px;
+	width: 290px;
+	position: absolute;
+}
+div div{
+	background-color: #fff;
+	height: 5%;
+	width: 5%;
+}
+div div:nth-child(odd){
+	left: 0;
+}
+div div:nth-child(even){
+	right: 0;
+}
+div div:nth-child(1), div div:nth-child(2){
+	top: 0;
+}
+div div:nth-child(3), div div:nth-child(4){
+	bottom: 0;
+}

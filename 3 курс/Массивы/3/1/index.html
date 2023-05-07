@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2</title>
+</head>
+<body>
+	<script>
+		let vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка'];
+
+		let str1 = vegetables.join(', ');
+		let x = '';
+		for(i in vegetables){
+				x+=vegetables[i];
+			if(i!=vegetables.length-1){
+				x+=', ';
+			}
+		}
+		str2=x;
+		document.writeln(str1);
+		document.writeln('<br>');
+		document.writeln(str2);
+	</script>
+</body>
+</html>

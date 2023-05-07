@@ -1,0 +1,14 @@
+td{
+	width: 20px;
+	padding: 0;
+}
+tr{
+	height: 20px;
+	background-color: black;
+}
+tr:nth-child(2n) td:nth-child(2n), tr:nth-child(2n-1) td:nth-child(2n-1){
+	background-color: white;
+}
+table{
+	border: 1px solid black;
+}

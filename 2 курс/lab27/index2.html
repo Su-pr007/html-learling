@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <title>Вторая часть</title>
+  <link rel='stylesheet' href='style2.css'>
+ </head>
+ <body>
+  <h1>Выпуск Wine 4.7 Так и есть</h1>
+  <ul>
+   <li>Доступен экспериментальный выпуск
+   открытой реализации Win32 API - Wine 4.7. С
+   момента выпуска версии 4.6 было закрыто 34
+   отчёта об ошибках и внесено 264
+   изменения</li>
+   </ul>
+   <ul>
+   <p>Наиболее важные изменения:</p>
+   <li>В ntdll добавлена поддержка загрузки
+   встроенных библиотек (предоставляемых
+   проектом Wine, а не родных DLL из Windows)
+   в формате PE (Portable Executable), в том
+   числе на Unix-подобных платформах.</li>
+   <li>В setupapi добавлена поддержка
+   установки встроенных библиотек в форме
+   фиктивных DLL-заглушек. В winedump
+   добавлены проверки сигнатур встроенных
+   DLL в формате PE.</li>
+   <li>Все модули, использующие msvcrt,
+   пересобраны как встроенные библиотеки
+   в формате PE.</li>
+   <li>До версии 4.8.3 обновлены компоненты
+   движка Mono/</li>
+  </ul>
+  <p>Реализованы дополнительные функции
+  в движке Debug Engine (Dll dbgeng):</p>
+  <span><ul>
+   <li>GetNumberModules(),</li>
+   <li>GetModuleByIndex(),</li>
+   <li>GetModuleParameters(),</li>
+   <li>GetModuleByOffset(),</li>
+   <li>ReadVirtual(),</li>
+   <li>IsPointer64Bit(),</li>
+   <li>GetExecutingProcessorType(),</li>
+   <li>GetModuleNameString(),</li>
+   <li>GetModuleVersionInformation();</li>
+  </ul></span>
+  <p>Добавлена поддержка ссылок "Command Link"
+  в диалоговых окнах, используемых для перехода
+  на следующую стадию</p>
+  <p>Закрыты отчёты об ошибках, связанные с
+  работой игр и приложений: Worms 2, Microsoft
+  Visual Studio 2005, 2008, 2010 Express,
+  Rekordbox 5.3.0, SpellForce 3, Oracle Data
+  Visualization Desktop, Microsoft Office 365,
+  Symantec Eraser, Halo Online Voice Chat,
+  Discord, Miro Realtimeboard, SIMATIC WinCC
+  V15.1, Sniper Elite V2, Sniper Elite 3,
+  Assetto Corsa, Star Wars The Old Republic,
+  Vocaliod 5.</p>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+.block_1{
+	width: 228px;
+	padding: 5px;
+	border: 1px solid black;
+}
+.block_2{
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+}
+.block_3{
+	width: 220px;
+	margin: 8px;
+	border: 2px solid green;
+}
+.block_4{
+	width: 226px;
+	padding: 7px;
+}
+.block_5{
+	width: 200px;
+	padding: 14px;
+	margin-left: 10px;
+	border-left: 2px solid red;
+}

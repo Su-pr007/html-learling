@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div>
+		<form onsubmit='return false' id='form1'>
+			<h2>Депозитный калькулятор</h2>
+			<label>Первоначальный депозит<input type="number" step='1000' id='iznachDep' onchange='check()'></label>
+			<label>Срок вклада?<select onchange='check()' name="vklad" id="vklad">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12 (год)</option>
+			</select></label>
+			<label>Годовая процентная ставка<input type="number" min='0' max='100' onchange='check()' id="yearStavka"></label>
+		</form>
+		<div id='container'>
+			<div id='was'>
+				Было:
+			</div>
+			<div id='became'>
+				Станет:
+			</div>
+			<div id="blocks"></div>
+		</div>
+	</div>
+	<div>
+		
+	</div>
+	 <script src="js/script.js"></script>
+</body>
+</html>

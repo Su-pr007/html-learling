@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<textarea id="cookedBox" readonly>Ежесекундно обновляющийся блок с каками
+	</textarea>
+	<h2>Cookie</h2>
+	<input type="button" value='Вывести куки' onclick="alert(document.cookie)">
+	<hr>
+	name: <input type="text" id="name1">
+	value: <input type="text" id="value1">
+	<input type="button" value='Добавить куки' onclick="document.cookie = document.querySelector('#name1').value + '=' + document.querySelector('#value1').value">
+	<hr>
+	name: <input type="text" id="name2">
+	value: <input type="text" id="value2">
+	<input type="button" onclick='addCookie5s()' value="Добавить на 5 сек">
+	<div id='sec5Box'>
+		Здесь будут куки
+	</div>
+
+	<hr>
+	name: <input type="text" id="name3">
+	value: <input type="text" id="value3">
+	date: <input type="date" id="date3">
+	time: <input type="time" id="time3" value='00:00'>
+	<input type="button" value="Добавить до заданного числа" onclick='toDate()'>
+	<script src='js/script.js'></script>
+</body>
+</html>

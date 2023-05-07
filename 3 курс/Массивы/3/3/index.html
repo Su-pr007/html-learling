@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>31</title>
+</head>
+<body>
+	<script>
+		let numbers=[2, 3, 5, 7, 11, 13, 17];
+		
+		function Summa(a){
+			return a.reduce((b,c)=>c+=b)
+		}
+
+		function currentSums(num){
+			newArray=[];
+				for(i in num){
+					if(i==0) continue;
+					newArray.push(Summa(num.slice(0, i)));
+				
+				}
+				newArray.push(Summa(num))
+				return newArray;
+		}
+	</script>
+</body>
+</html>

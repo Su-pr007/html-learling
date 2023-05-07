@@ -1,0 +1,10 @@
+.block1{
+	height: 200px;
+	background-color: #669;
+}
+.inputs{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}

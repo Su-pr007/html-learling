@@ -1,0 +1,15 @@
+div{
+	border: 1px solid #93F00F;
+	background-color: #E8EDFF;
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin: auto;
+	box-shadow: 0 2px 3px #ccc;
+}
+div:hover{
+	width: 95%;
+}
+div:active{
+	margin-top: +25px;
+}

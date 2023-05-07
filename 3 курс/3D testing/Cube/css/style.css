@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: linear-gradient(0, #333 0%, #444 100%);
+	background-attachment: fixed;
+}
+.container{
+	position: relative;
+	margin: 200px auto;
+	width: 300px;
+	height: 300px;
+	perspective: 500px;
+}
+.cube{
+	height: inherit;
+	width: inherit;
+	transform-style: preserve-3d;
+}
+.side{
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	border: 5px solid #fff;
+}
+.front{
+	transform: translateZ(150px);
+}
+.back{
+	transform: rotateY(180deg) translateZ(150px);
+}
+.left{
+	transform: rotateY(-90deg) translateZ(150px);
+}
+.right{
+	transform: rotateY(90deg) translateZ(150px);
+}
+.bottom{
+	transform: rotateX(90deg) translateZ(150px);
+}
+.top{
+	transform: rotateX(-90deg) translateZ(150px);
+}

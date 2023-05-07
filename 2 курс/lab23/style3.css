@@ -1,0 +1,18 @@
+body{
+	color: #06156F;
+}
+h1, h3{
+	text-align: center;
+	font-family: Arial;
+}
+p span{
+	color: #ED3CF1;
+}
+span~span{
+	color: #ED3314;
+	font-style: italic;
+}
+p+p span{
+	font-style: italic;
+	color: inherit;
+}

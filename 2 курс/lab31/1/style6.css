@@ -1,0 +1,60 @@
+div{
+	background-color: #f00;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+div:nth-of-type(1){
+	left: 10px;
+	top:  10px;
+}
+/* Так нужно */
+h2{
+	margin-top: 400px;
+}
+
+
+/* Стилевой файл с абсолютным */
+/* позиционированием блоков, */
+ /* кроме одного "липкого" */
+
+
+/* цвет */
+div:nth-of-type(2n){
+	left: 20px;
+	top: 20px;
+	background-color: #F80;
+}
+div:nth-of-type(3n){
+	left: 30px;
+	top: 30px;
+	background-color: #FF0;
+}
+div:nth-of-type(4n){
+	left: 40px;
+	top: 40px;
+	background-color: #0f0;
+}
+div:nth-of-type(5n){
+	position: sticky;
+	margin-top: 50px;
+	margin-left: 50px;
+	top: 0px;
+	background-color: #0fe;
+}
+/* z индексы */
+.z1{
+	z-index: 1;
+}
+.z2{
+	z-index: 2;
+}
+.z3{
+	z-index: 3;
+}
+.z4{
+	z-index: 4;
+}
+.z5{
+	z-index: 5;
+}

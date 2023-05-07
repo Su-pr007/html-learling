@@ -1,0 +1,10 @@
+input{
+	width: 40%;
+}
+input:invalid{
+	background-color: #D70A0A;
+	color: #eee;
+}
+input:valid{
+	background-color: #C8FFC6;
+}

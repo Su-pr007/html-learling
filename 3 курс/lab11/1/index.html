@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<textarea readonly="" rows='5' cols='50'>'0' ? alert('Привет') : alert();</textarea>
+	<input type="button" onclick='ex1()' value='Задача 1'>
+	<hr>
+	<textarea rows="5" readonly="" cols='50'>prompt('"Официальное" название JavaScript?', '')=='EcmaScript' ? alert('Правильно!') : alert('Не знаете? EcmaScript!');</textarea>
+	<input type="button" value="Задача 2" onclick="ex2()">
+	<hr>
+	<textarea rows="5" readonly="" cols='50'>let number = prompt('Ваше число', '');
+number=='0' ? alert('0') : number > '0' ? alert('1') : alert('-1');</textarea>
+	<input type="button" value="Задача 3" onclick="ex3()">
+	<hr>
+	<textarea rows="5" readonly="" cols='50'>let result;
+	let a=+prompt('a:', ''); 
+	let b=+prompt('b:', '');
+	(a + b < 4) ? result = 'Мало' : result = 'Много';
+	alert(result);</textarea>
+	<input type="button" value="Задача 4" onclick="ex4()">
+	<hr>
+	<textarea rows="5" readonly="" cols='50'>let message;
+	let login = prompt('Логин', '');
+	(login == 'Сотрудник') ? message = 'Привет' :
+	(login=='Директор') ? message = 'Здравствуйте, царь' :
+	(login == '') ? message = 'Нет логина' :
+	message='';
+	alert(message);</textarea>
+	<input type="button" value="Задача 5" onclick="ex5()">
+	<hr>
+	<script src='js/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+div{
+	background-color: #DC6666;
+	padding: 30px;
+	color: #fff;
+	position: relative;
+}
+div div{
+	background-color: #4BB380;
+	width: 50%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}

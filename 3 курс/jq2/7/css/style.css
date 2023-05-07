@@ -1,0 +1,8 @@
+.block{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	margin: 10px 0;
+	left: 2%;
+	background-color: #909;
+}

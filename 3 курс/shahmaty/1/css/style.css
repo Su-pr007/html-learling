@@ -1,0 +1,11 @@
+#table{
+	display: flex;
+	flex-flow: row wrap;
+	width: 800px;
+}
+#table div{
+	background-color: #909;
+	height: 98px;
+	width: 98px;
+	border: 1px solid black;
+}

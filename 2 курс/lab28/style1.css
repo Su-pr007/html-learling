@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: #DC6666;
+}
+div:nth-child(2){
+	background-color: #4DB181;
+}
+div:nth-child(3){
+	background-color: #AA7EAF;
+}

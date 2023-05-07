@@ -1,0 +1,56 @@
+body{
+	color: #0E1562;
+	font-family: Arial;
+}
+h2{
+	text-align: initial;
+	margin-bottom: 0;
+}
+h3{
+	text-align: center;
+}
+div{
+	margin: 20px auto;
+	width: 90%;
+	box-shadow: 0 0 3px #0E1562;
+	padding: 10px;
+}
+.t_a_l{
+	text-align: left;
+}
+.t_a_r{
+	text-align: right;
+}
+.t_a_c{
+	text-align: center;
+}
+.t_a_j{
+	text-align: justify;
+}
+.t_a_intl{
+	text-align: initial;
+}
+.t_a_inhrt{
+	text-align: inherit;
+}
+.t_i_30{
+	text-indent: 30px;
+}
+.t_i_-30{
+	text-indent: -30px;
+}
+.l_h_20px{
+	line-height: 20px;
+}
+.l_h_200per{
+	line-height: 200%;
+}
+.l_h_12{
+	line-height: 1.2;
+}
+.l_h_07{
+	line-height: 0.7;
+}
+.l_h_normal{
+	line-height: normal;
+}

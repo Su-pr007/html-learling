@@ -1,0 +1,43 @@
+div{
+	border: 2px dashed #aaa;
+	opacity: 0.9;
+}
+div.green{
+	background-color: #46FF42;
+	position: relative;
+	z-index: 5;
+}
+div.green2{
+	background-color: #46FF42;
+	position: relative;
+	z-index: 2;
+	top: 50vh;
+}
+div.red{
+	background-color: #F9110B;
+	position: absolute;
+	z-index: 4;
+	padding: 10px;
+	width: 70%;
+	left: 20%;
+	top: 16vh;
+}
+div.yellow{
+	background-color: #FFC733;
+	position: relative;
+	z-index: 6;
+}
+div.yellow2{
+	background-color: #FFC733;
+	position: relative;
+	z-index: 1;
+}
+div.blue{
+	background-color: #7A41C7;
+	position: absolute;
+	z-index: 3;
+	top: 10%;
+	padding-top: 15%;
+	left: 40%;
+	width: 50%;
+}

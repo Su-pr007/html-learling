@@ -1,0 +1,17 @@
+div{
+	margin: 10px;
+	background: #00bbff;
+	width: 300px;
+}
+a{
+	background: #ffff00;
+}
+.block_1{
+	padding: 10px;
+}
+.block_2{
+	padding: 10px 20px;
+}
+.block_3{
+	padding: 10px 20px 30px;
+}

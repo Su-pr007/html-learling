@@ -1,0 +1,19 @@
+div{
+	width: 250px;
+	height: 250px;
+}
+.out_block{
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding: 3px;
+}
+.black_block{
+	background: #000;
+}
+.white_block{
+	background: #ffffff;
+	border: 2px solid #ccc;
+	padding: 3px;
+	margin-left: 125px;
+	margin-top: -125px;
+}

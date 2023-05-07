@@ -1,0 +1,13 @@
+body{
+	background-color: #98FB98;
+}
+h2{
+	color: red;
+	text-align: center;
+}
+div{
+	width: 300px;
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-between;
+}

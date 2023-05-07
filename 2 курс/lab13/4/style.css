@@ -1,0 +1,26 @@
+div{
+	height: 100px;
+	margin-bottom: 10px;
+	background: repeating-linear-gradient(45deg,
+	#415496 0px, #415496 5px,
+	#616BC2 5px, #616BC2 10px);
+}
+
+
+.bl_2{
+	height: 30px;
+	background: radial-gradient(
+	circle,
+	#E4ECF3 0%, #E4ECF3 25%,
+	#77A8CF 25%, #77A8CF 50%,
+	#B8DEFF 50%);
+	background-size: 30px;
+}
+.bl_3{
+	height: 30px;
+	background: radial-gradient(
+	50px 50px,
+	#E4ECF3 0, #E4ECF3 10%,
+	#77A8CF 10%, #77A8CF 20%,
+	#B8DEFF 20%);
+}

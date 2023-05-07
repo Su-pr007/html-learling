@@ -1,0 +1,44 @@
+body{
+	color: #000B7A;
+}
+h1, h2, h3{
+	text-align: center;
+}
+ul li{
+	list-style: none;
+	margin-bottom: 1em;
+}x
+/* чередование красного и серого li */
+ul li:nth-child(even){
+	color: #aaa;
+}
+ul li:nth-child(odd){
+	color: red;
+}
+/* последний li зеленый */
+ul li:last-of-type{
+	color: green;
+}
+/* Оранжевая линия за первой строкой */
+ul li:first-of-type:first-line{
+	background-color: #FEA300;
+}
+/* закорючка на li */
+ul li:before{
+	content: '\21BB ';
+}
+span ul li:before{
+	content: '\21BB'
+}
+p:first-line{
+	background-color: #FEA300;
+}
+span ul li:first-line{
+	background-color: #fff;
+}
+span ul li:nth-child(1n){
+	color: #000B7A;
+}
+span ul li:before{
+	content: '\2714'
+}

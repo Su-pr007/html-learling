@@ -1,0 +1,23 @@
+.vk1{
+	width: 100px;
+	height: 20px;
+	background-color: #75CCBC;
+	color: #fff;
+	float: left;
+	text-align: center;
+	margin-right: 1px;
+}
+.vk1:nth-child(1){
+	border-radius: 10px 0 0 0;
+}
+.vk1:last-of-type{
+	border-radius: 0 10px 0 0;
+}
+.selected{
+	background-color: #538C82;
+}
+.content{
+	background-color: #538C82;
+	height: 200px;
+	width: 403px;
+}

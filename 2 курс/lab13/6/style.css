@@ -1,0 +1,8 @@
+div{
+	height: 500px;
+	width: 500px;
+	background: radial-gradient(circle,
+	#000 0%, #000 5%,
+	#fff 6%, #000 50%,
+	#fff 80%, #000 81%)
+}

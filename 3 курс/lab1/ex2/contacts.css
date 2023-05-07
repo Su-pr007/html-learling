@@ -1,0 +1,102 @@
+body{
+	background: radial-gradient( at right top, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%),
+	radial-gradient(at left bottom, #97D138 0%, #D2BEA0 50%, rgba(0, 0, 0, 0) 85%);
+	background-repeat: no-repeat;
+}
+*{
+	font-size: 1rem;
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size:1.5vw;
+}
+header{
+	margin-bottom: 0;
+	top: 0;
+}
+a{
+	text-decoration: none;
+	color: #565656;
+}
+.nav-menu{
+	list-style: none;
+	padding: 5px;
+
+}
+.nav-menu > li{
+	display:inline-block;
+	margin-left: 5px;
+	box-shadow: 0px 0px 5px black;
+	padding: 1%;
+	width: 17%;
+	height: 1.3em;
+	text-align: center;
+	color: #565656;
+	font-family: monospace;
+	font-weight: 600;
+}
+.nav-menu__logo{
+	text-align:right;
+	margin-top: 0;
+	font-family: Century Schoolbook L;
+	color: #ccc;
+	margin-right: 10px;
+	text-shadow: 1px 1px 1px black;
+	font-size: 1.8em;
+}
+
+.nav-menu > li:hover{
+	box-shadow: -1px -1px white  ,inset 0px 0px 5px black;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px white;
+}
+main{
+	width: 70%;
+	margin: 0 auto;
+	background: whitesmoke;
+	padding: 1vh 3vw;
+	height:200vh;
+}
+main li{
+	margin-top: 2vh;
+	list-style: none;
+	font-size: 1.4em;
+	font-weight: 500;
+font-family: Nimbus Roman No9 L
+}
+main li a{
+ font-size: 1.2em;
+ font-weight: 500;
+ color: #8568AA;
+}
+
+footer{
+	margin-top: 0;
+	clear:both;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+h2 {
+ margin-top: 0;
+	font-family: Century Schoolbook L;
+	color: #ccc;
+	margin-left: 10px;
+	text-shadow: 1px 1px 1px black;
+	font-size: 1.8em;
+}
+.clearfix::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+footer p{
+	text-align:right;
+	margin-top: 0;
+	font-family: Century Schoolbook L;
+	color: #fcfcfc;
+	margin-right: 10px;
+	text-shadow: 1px 1px 1px black;
+	font-size: 1.2em;
+}

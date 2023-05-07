@@ -1,0 +1,40 @@
+table{
+	width: 90%;
+	height: 90vh;
+	margin: auto;
+	background-color: #000;
+}
+td{
+	border: 2px solid #fff;
+}
+.red{
+	background-color: #EB1C24;
+}
+.phil{
+	background-color: #B73DBA;
+}
+.cyan{
+	background-color: #8CFFFA;
+}
+.orange{
+	background-color: #FE7F26;
+}
+.yellow{
+	background-color: #C4FF0D;
+}
+.gray{
+	background-color: #C3C3C3;
+}
+.light_green{
+	background-color: #C4FF0D;
+}
+.green{
+	background-color: #0FD145;
+}
+.blue{
+	background-color: #3F47CC;
+}
+.pink{
+	background-color: #FEAEC7;
+	width: 50%;
+}

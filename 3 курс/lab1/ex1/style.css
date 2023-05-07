@@ -1,0 +1,8 @@
+@media print{
+	*{
+		background-color: #fff !important;
+		font-family: Times New Roman !important;
+		color: #000 !important;
+		font-size: 12pt !important;
+	}
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<span></span>
+	<script>
+	let curDate = new Date()
+	let year = curDate.getFullYear();
+	let month = curDate.getMonth();
+	let date = curDate.getDate();
+	let day = curDate.getDay()-1;
+	let months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+	let days = ['понедельник', 'вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+		document.querySelector('span').innerHTML = 'Сегодня ' + date + ' ' + months[month] + ' ' + year + ' года ' + days[day];
+	</script>
+</body>
+</html>

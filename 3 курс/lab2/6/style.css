@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+}
+header{
+	width: 100vw;
+	background-color: #ff0;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+}
+.left{
+	flex-basis: 34%;
+	background-color: #a00;
+}
+.right{
+	flex-basis: 34%;
+	background-color: #00a;
+}
+.content_block{
+	flex-basis: 34%;
+	background-color: #ccc;
+}
+footer{
+	width: 100vw;
+	height: 50px;
+	background-color: #f0f;
+}
+@media screen and (min-width: 401px) and (max-width: 700px){
+	.main{
+		flex-flow: row wrap;
+	}
+	.content_block{
+		flex-basis: 100%;
+		order: 1;
+	}
+	.left{
+		flex-basis: 50%;
+		order: 2;
+	}
+	.right{
+		flex-basis: 50%;
+		order: 3;
+	}
+}
+@media screen and (max-width: 400px){
+	.main{
+		flex-flow: row wrap;
+	}
+	.main div{
+		flex-basis: 100%;
+	}
+	.left{
+		order: 2;
+	}
+	.content_block{
+		order: 1;
+	}
+	.right{
+		order: 3;
+	}
+}
+/* ============================================= SIMBIOZZZ  ==================================================== */
+nav{
+	width: 100vw;
+	background-color: #35D077;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: end;
+	flex-direction: row;
+	padding: 0;
+}
+nav li{
+	padding: 5px;
+	font-size: 2em;
+	margin: 10px;
+	background-color: rgba(240, 240, 240, 0.5);
+	text-align: center;
+	border-radius: 5px;
+}
+nav li:hover{
+	background-color: #C8F2DA;
+}
+nav li ul{
+	display: none;
+	position: absolute;
+	margin-left: -5px;
+	background-color: #35D077;
+	margin-top: 5px;
+}
+nav li ul li{
+	font-size: 1em;
+}
+nav li:hover > ul{
+	display: block;
+}
+nav li a{
+	text-decoration: none;
+}
+@media screen and (max-width: 700px){
+	nav ul{
+		justify-content: space-around;
+	}
+}
+@media screen and (min-width: 400px){
+	nav li:nth-child(4) ul{
+		right: 0;
+	}
+}
+@media screen and (max-width: 400px){
+	nav ul{
+		flex-flow: column;
+	}
+	nav ul ul{
+		position: static;
+		width: 100%;
+	}
+	nav ul ul li{
+		margin: auto;
+		margin-top: 5px;
+	}
+}

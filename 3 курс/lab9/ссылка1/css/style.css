@@ -1,0 +1,30 @@
+form{
+	width: 600px;
+}
+label{
+	display: flex;
+	margin: 10px;
+	justify-content: space-between;
+}
+select{
+	width: 140px;
+}
+#was, #became, #blocks{
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+#blocks{
+	display: block;
+}
+#red, #green{
+	background-color: #f00;
+	width: 50px;
+	position: relative;
+	bottom: 0;
+	display: inline-block;
+}
+#green{
+	background-color: #0f0;
+	margin-left: 10px;
+}

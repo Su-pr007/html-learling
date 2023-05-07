@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+}
+div{
+	height: 100px;
+	width: 100px;
+	background-color: #DC6666;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+div:nth-child(2){
+	background-color: #4DB181;
+	top: 20px;
+	left: 20px;
+}
+div:nth-child(3){
+	background-color: #AA7EAF;
+	top: 30px;
+	left: 30px;
+}
+/* С процентами */
+span:nth-child(2) div:nth-child(1){
+	top:10%;
+	left:10%;
+}
+span:nth-child(2) div:nth-child(2){
+	top:20%;
+	left:20%;
+}
+span:nth-child(2) div:nth-child(3){
+	top:30%;
+	left:30%;
+}
+/* С em */
+span:nth-child(3) div:nth-child(1){
+	top:10em;
+	left:10em;
+}
+span:nth-child(3) div:nth-child(2){
+	top:20em;
+	left:20em;
+}
+span:nth-child(3) div:nth-child(3){
+	top:30em;
+	left:30em;
+}

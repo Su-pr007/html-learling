@@ -1,0 +1,24 @@
+/* флаг */
+div{
+	height: 50px;
+	width: 300px;
+	border: 1px solid #000;
+	position: absolute;
+}
+div:nth-child(2){
+	top: 50px;
+	background-color: #00f;
+}
+div:nth-child(3){
+	top: 100px;
+	background-color: #f00;
+}
+/* текст после флага */
+div:nth-child(1):before{
+	content: 'Внизу заголовка выводится красная линия высотой три пикселя';
+	position: absolute;
+	top: 150px;
+	font-size: 18pt;
+	font-weight: bold;
+	border-bottom: 3px solid #f00;
+}

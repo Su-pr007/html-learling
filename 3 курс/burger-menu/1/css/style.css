@@ -1,0 +1,62 @@
+body{
+	background-color: #429;
+	background-attachment: fixed;
+	margin: 0;
+}
+.section{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu-btn{
+	display: block;
+	background-color: #fff;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	position: absolute;
+}
+.menu-btn span,
+.menu-btn span::after,
+.menu-btn span::before{
+	display: block;
+	position: absolute;
+	height: 4px;
+	width: 50px;
+	top: 50%; margin-top: -2px;
+	left: 50%; margin-left: -25px;
+	border-radius: 1px;
+	background-color: #999;
+	transition: 0.2s;
+}
+.menu-btn span::after,
+.menu-btn span::before{
+	content: '';
+}
+.menu-btn span::after{
+	transform: translateY(-10px);
+	transform-origin: left top;
+}
+.menu-btn span::before{
+	transform: translateY(10px);
+	transform-origin: left bottom;
+}
+.menu-btn_active span::after{
+	transform: rotate(-35deg);
+	width: 25px;
+}
+.menu-btn_active span::before{
+	transform: rotate(35deg);
+	width: 25px;
+}
+.menu-btn_active span::after{
+	transform: translate(25px) rotate(35deg);
+	width: 25px;
+	transform-origin: right top;
+}
+.menu-btn_active span::before{
+	transform: translate(25px) rotate(-35deg);
+	width: 25px;
+	transform-origin: right bottom;
+}

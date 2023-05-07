@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1</title>
+	<script src='../jQuery.min.js'></script>
+</head>
+<body>
+	<h3>Test</h3>
+	<form action="">
+		<fieldset>
+			<legend>Что такое jQuery?</legend>
+			<div class="radio" id="div1">
+				<input type="radio" value="1" id='var1' name="jQIs">
+				<label for="var1">jQuery - язык программирования;</label>
+			</div>
+			<div class="radio" id="div2">
+				<input type="radio" value="2" id='var2' name="jQIs">
+				<label for="var2">jQuery – это JavaScript-библиотека, фокусирующаяся на взаимодействии
+JavaScript, HTML и CSS;</label>
+			</div>
+			<div class="radio" id="div3">
+				<input type="radio" value="3" id='var3' name="jQIs">
+			<label for="var3">jQuery – это я.</label>
+		</div>
+		<input type="button" value="OK" onclick="check()">
+		</fieldset>
+	</form>
+	<script>
+		function green(){
+			$(this).css('background', 'green');
+		}
+		function white(){
+			$(this).css('background', 'white');
+		}
+		function gray(){
+			$(this).css('background', 'gray');
+		}
+		$('#var1, #var3').parent().hover(gray, white);
+		$('#var2').parent().hover(green, white);
+		
+		function check(){
+			let x = $('.radio :checked')[0].value;
+			switch(x){
+				case '1':
+					alert('wrong');
+					window.close();
+					return;
+				case '2':
+					alert('right!');
+					window.close();
+					return;
+				case '3':
+					alert('wrong');
+					window.close();
+					return;
+				default:
+					alert('Выбери что-нибудь в конце концов!');
+					return;
+			}
+		}
+	</script>
+</body>
+</html>
